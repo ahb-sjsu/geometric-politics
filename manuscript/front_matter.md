@@ -19,7 +19,7 @@ Book 10 of the Geometric Series
 
 ## Series Foreword
 
-This is the tenth and final volume in the Geometric Series.
+Politics is one of the domain volumes in the Geometric Series.
 
 The series began with a simple observation: across domains --- ethics, law, economics, cognition, medicine, communication, education, aesthetics --- the standard methodology compresses multi-dimensional structure into scalar numbers and then wonders why the numbers behave badly. GDP does not capture economic wellbeing. IQ does not capture intelligence. BLEU does not capture translation quality. QALYs do not capture patient health. Binary verdicts do not capture legal reasoning. The pattern is universal and the diagnosis is the same: scalar reduction destroys geometric structure, and the destruction is irreversible.
 
@@ -91,7 +91,7 @@ James Fishkin's work on deliberative democracy, particularly the Deliberative Po
 
 The series editors, early readers of the manuscript, and anonymous reviewers of the component papers improved the book through their criticism. The errors that remain are, as always, proof that I did not always listen.
 
-This is the final volume in a series that has occupied four years of my professional life. The debts accumulated across ten books are impossible to enumerate --- to co-authors, to students, to referees, to editors, to the institutions that supported the work. But the deepest debt is to the readers who followed the argument from the moral manifold to the democratic manifold, from the first page of *Geometric Methods* to the last page of this book. The circle closes. The geometry, I hope, speaks for itself.
+This book continues a series that has occupied four years of my professional life. The debts accumulated across twelve books are impossible to enumerate --- to co-authors, to students, to referees, to editors, to the institutions that supported the work. But the deepest debt is to the readers who followed the argument from the moral manifold to the democratic manifold, from the first page of *Geometric Methods* to the last page of this book. The circle closes. The geometry, I hope, speaks for itself.
 
 Andrew H. Bond
 San Jose, California

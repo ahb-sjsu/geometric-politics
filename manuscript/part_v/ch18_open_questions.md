@@ -100,7 +100,7 @@ Bridging this gap — between geometric sophistication and judicial administrabi
 
 ## The Circle Closes
 
-This is the final chapter of the final volume of the Geometric Series. Ten books. From the mathematical toolkit of *Geometric Methods* through the parent framework of *Geometric Reasoning*, through eight domain instantiations — ethics, economics, law, cognition, communication, medicine, education, aesthetics — and now politics.
+This chapter closes the Politics volume of the Geometric Series. Twelve books in total. From the mathematical toolkit of *Geometric Methods* through the parent framework of *Geometric Reasoning*, through eight domain instantiations — ethics, economics, law, cognition, communication, medicine, education, aesthetics — and now politics.
 
 The series began with a simple observation: scalar reduction destroys geometric structure, and the destruction is irreversible. The observation has been tested across ten domains. In every domain, the same pattern holds: multi-dimensional realities are compressed to scalars, the compression is lossy, the loss is irrecoverable, and the consequences are predictable — and preventable, if the geometry is understood.
 
