@@ -94,6 +94,20 @@ Cross-partisan coalitions succeed when the suppressed dimension is activated —
 
 - **Issue-specific legislative coalitions:** In legislatures, cross-partisan coalitions form on specific votes that activate suppressed dimensions. The bipartisan infrastructure bill (2021) activated $d_1$ (economic investment) in a way that cross-cut the partisan $d_1$-$d_2$ diagonal, allowing center-right Republicans to vote with Democrats on a $d_1$ position without conceding anything on $d_2$.
 
+## Historical Realignments as Manifold Restructuring
+
+The major party realignments in American political history — the New Deal realignment of the 1930s, the civil rights realignment of the 1960s, the Reagan realignment of the 1980s, and the populist realignment of the 2010s — can be understood as restructurings of the manifold's covariance matrix.
+
+**The New Deal realignment (1930s):** Before the New Deal, the $d_1$-$d_2$ correlation was weak: economic conservatism and social conservatism were not strongly linked, and the parties were internally diverse on both dimensions. The New Deal activated $d_1$ as the dominant axis: the Democratic party became the party of economic progressivism (labor unions, welfare state, regulation), and the Republican party became the party of economic conservatism (business, tax cuts, deregulation). The covariance matrix shifted: $\Sigma_{12}$ increased as economic and social positions began to align along party lines.
+
+**The civil rights realignment (1960s):** The Civil Rights Act of 1964 and the Voting Rights Act of 1965 activated $d_2$ (social values) and $d_6$ (identity) as major axes of partisan differentiation. Southern Democrats — economically progressive but socially conservative and racially segregationist — found their $d_2$-$d_6$ positions increasingly at odds with the national Democratic party. They migrated to the Republican party over the following three decades, dramatically increasing $\Sigma_{12}$ and $\Sigma_{16}$ — the correlation between economics, social values, and identity.
+
+**The Reagan realignment (1980s):** Reagan fused economic conservatism ($d_1$), social conservatism ($d_2$), and foreign policy hawkishness ($d_4$) into a single coalition identity. The three-dimensional fusion increased $\Sigma_{14}$ (economic-foreign policy correlation) and cemented the high $\Sigma_{12}$ created by the civil rights realignment. The Reagan coalition's agreement submanifold was approximately three-dimensional: economics + social values + foreign policy.
+
+**The populist realignment (2010s):** The Trump era activated $d_5$ (institutional trust) and $d_6$ (identity) as the dominant axes, displacing $d_1$ (economics) from its New Deal-era primacy. The covariance matrix shifted again: $\Sigma_{56}$ surged, as institutional distrust and identity salience became strongly correlated. Meanwhile, $\Sigma_{14}$ weakened, as the Republican party's traditional free-trade and interventionist positions were displaced by economic populism and isolationism.
+
+Each realignment is a restructuring of the covariance matrix — a change in which dimensions are correlated and which are independent. The new correlations define new coalition structures: the agreement submanifolds of the parties shift to accommodate the new covariance structure. The old coalitions, built on the old covariance structure, fracture when the structure changes. The fracture is not a failure of party management; it is a geometric consequence of manifold restructuring.
+
 ## The Bond Geodesic Equilibrium for Coalitions
 
 Coalition formation has the structure of a multi-agent equilibrium problem, connecting to the Bond Geodesic Equilibrium from *Geometric Economics* (Ch. 7).

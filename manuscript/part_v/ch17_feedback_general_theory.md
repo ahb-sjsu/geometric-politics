@@ -89,6 +89,18 @@ This is speculative. The analogy between political gauge invariance and physical
 
 The lesson for the general theory is the question itself: does the gauge-invariance framework, which produces genuine conservation laws in physics and plausible conservation principles in ethics (conservation of harm) and economics (conservation of value under re-description), produce a meaningful conservation law in politics? The answer is unknown, and the chapter is honest about that. The gap between the analogy and a rigorous result is a genuine open question.
 
+## Lesson 5: The Feedback Between Institutions and Manifold
+
+The other domains in the Geometric Series treat the manifold as exogenous — the moral manifold, the economic manifold, the clinical manifold exist independently of the institutions that operate on them. In politics, the manifold and the institutions co-evolve: the electoral system shapes which dimensions of preference are politically activated, and the activation shapes which dimensions voters develop positions on.
+
+Consider: Do voters hold independent positions on environmental policy ($d_3$) because environmental policy is genuinely independent, or because the political system has (recently) begun to treat it as an independent issue? In the 1970s, before the emergence of environmentalism as a political force, $d_3$ was not an independent dimension of most voters' political identity. Environmental attitudes were absorbed into the economic dimension (conservation as a value of the economic right) or the social dimension (environmental protection as a progressive social cause). The dimension became independent when political institutions — parties, campaigns, media — began to treat it as independent.
+
+This feedback — institutions creating the manifold dimensions they then operate on — does not appear in the other domains. The clinical manifold's dimensions (organ systems, functional status) exist independently of the healthcare system. The moral manifold's dimensions (Hohfeldian relations, harm, autonomy) exist independently of ethical institutions. But the political manifold's dimensions are partially constituted by the political institutions that the manifold is supposed to describe.
+
+The feedback has profound implications for the framework's normative claims. If the political manifold is partially constituted by institutions, then the Democratic Irrecoverability Theorem's diagnosis — that voting systems lose manifold information — is itself institution-dependent. A different set of institutions might produce a different manifold with different dimensionality, and the irrecoverability bound might be different.
+
+The lesson for the general theory: in some domains, the manifold and the institutions are not separable. The geometry is not a fixed background on which institutions operate but a dynamic structure that institutions help create. A complete geometric theory must account for this co-evolution — the feedback between the manifold and the contraction operators that act on it.
+
 ## District 7: Four Lessons
 
 We use District 7 to illustrate each lesson:

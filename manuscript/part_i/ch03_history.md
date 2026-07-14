@@ -99,6 +99,20 @@ The suppressed dimensions do not disappear from voters' preferences. But they di
 
 The nationalization of media — the replacement of local newspapers and local news broadcasts with national cable news and national digital platforms — amplified the compression. Local media covered local issues, which often activated dimensions ($d_3$, $d_5$, local $d_1$) that national media ignores. As local media declined, the political discourse narrowed to the dimensions that national media covers — and national media, facing competitive pressure to maximize audience engagement, covers the dimensions that generate the most conflict: $d_1$ (economics), $d_2$ (social values), and $d_6$ (identity). The other three dimensions have been nearly extinguished from national political discourse.
 
+## The Referendum: Direct Democracy's 1D Return
+
+The modern referendum — a direct popular vote on a specific policy question — appears to be a return to Athenian high-dimensionality: citizens vote directly on policy rather than electing representatives. But the referendum is a 1D contraction in disguise.
+
+A referendum reduces a multi-dimensional policy question to a binary choice: yes or no. The policy in question may have implications across all six dimensions — an immigration referendum involves economics ($d_1$), social values ($d_2$), identity ($d_6$), institutional trust ($d_5$), and foreign policy ($d_4$). But the referendum asks: "Are you for or against this specific proposal?" The voter must project their six-dimensional position onto a single binary choice.
+
+The binary contraction is even more severe than the candidate-choice contraction of a general election. In a general election with five candidates, the voter's output has $\log_2 5 \approx 2.3$ bits of information. In a referendum, the voter's output has exactly 1 bit. The referendum is the most severe dimensional contraction in democratic practice.
+
+The consequences are visible in the pathologies of referendum politics: voters who support the policy's economic provisions but oppose its social implications are forced to choose one dimension over the other. The "yes" campaign and "no" campaign function as heuristic fields, each emphasizing the dimension on which their side has the advantage. The referendum outcome is determined not by the policy's merits on the full manifold but by which campaign successfully defines the salient dimension.
+
+The Brexit referendum of 2016 is the most dramatic recent example. The question — "Should the United Kingdom remain a member of the European Union or leave the European Union?" — compressed a vast multi-dimensional policy space (trade, immigration, sovereignty, identity, institutional trust, regulatory alignment) into a binary choice. Voters who favored leaving on $d_4$ (sovereignty) but remaining on $d_1$ (trade) had no way to express this complexity. The 52-48 result was a projection of a multi-dimensional disagreement onto a binary axis, and the resulting policy — withdrawal from the EU — was the output of that projection, not a representation of the electorate's nuanced multi-dimensional preferences.
+
+The geometric lesson: referenda are not "more democratic" than representative elections merely because they bypass representatives. They are different contractions of the same manifold, and the binary contraction of a referendum is, by the Democratic Irrecoverability Theorem, more severe than the contraction of a multi-candidate election. Direct democracy is not always high-dimensional democracy.
+
 ## The Twenty-First Century: Algorithmic Compression
 
 The digital revolution did not reverse the dimensional compression of mass media. It deepened it.

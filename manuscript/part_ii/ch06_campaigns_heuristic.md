@@ -91,6 +91,20 @@ In politics, negative campaigning corrupts the heuristic field in three ways:
 
 These three corruption modes are exactly the failure modes identified in the parent framework: distance inflation is heuristic corruption, dimensional amplification is objective hijacking (forcing the voter to optimize on the wrong dimension), and noise injection is heuristic degradation. The campaign battlefield is a field of competing heuristic forces, some informative and some corrupt.
 
+## The Primary as Dimensional Filter
+
+Before the general election's heuristic battle, the primary election performs a different geometric operation: it filters the candidate set through a dimensional lens that may differ from the general election's lens.
+
+A partisan primary selects from the party's manifold region: the candidates who compete in the Democratic primary occupy the progressive region of $\mathcal{P}$, and the primary electorate evaluates them within that region. The projection axis of the primary may differ from the projection axis of the general election. In the Democratic primary, the relevant axis might be the $d_1$-$d_3$ diagonal (economic progressivism vs. environmental progressivism), while in the general election, the relevant axis might be the $d_1$-$d_5$ diagonal (economic policy vs. institutional trust).
+
+This means that the primary selects a candidate who is optimal on the primary's projection axis — not necessarily on the general election's projection axis. The candidate who wins the primary by being the most compelling on the intra-party dimension may be poorly positioned on the inter-party dimension. The classic "too extreme for the general" problem is, geometrically, a dimensional mismatch: the primary selects for position on an intra-party axis, but the general election evaluates on an inter-party axis, and these axes are different.
+
+Open primaries — where any voter can participate, regardless of party registration — mitigate this dimensional mismatch by expanding the primary electorate beyond the party's manifold region. Voters from the other party and from the manifold's center can participate, pulling the primary's projection axis closer to the general election's axis. The geometric prediction: open primaries produce nominees who are closer to the full electorate's Frechet mean, reducing the $BI$ of the eventual general election winner.
+
+Top-two primaries — where all candidates from all parties compete in a single primary, and the top two vote-getters advance to the general election — take this further. The top-two primary evaluates candidates on the full electorate's manifold, not on the party's submanifold. The candidates who advance are the two who are nearest to the electorate's Frechet mean on the projection axis that the primary's campaign defines. The dimensional filtering of the partisan primary is eliminated.
+
+The geometric trade-off: partisan primaries preserve party identity (each party sends its preferred manifold representative) at the cost of dimensional mismatch. Open and top-two primaries reduce dimensional mismatch at the cost of party identity (the party may not be represented by its preferred candidate). The trade-off is between intra-party dimensional fidelity and inter-party manifold representation.
+
 ## The Debate as Manifold Exploration
 
 A political debate is a structured exploration of the preference manifold. Each question forces the candidates to reveal their positions on a specific dimension. The information value of a debate depends on how many dimensions it samples.
