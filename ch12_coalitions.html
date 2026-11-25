@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Chapter 12: Coalition Building as Pareto Optimization &mdash; Geometric Politics</title>
   <meta name="description" content="Chapter 12: Coalition Building as Pareto Optimization from Geometric Politics: Representation, Polarization, and the Topology of Democratic Choice, by Andrew H. Bond.">
+  <meta name="generator" content="geometric-series build kit">
   <link rel="stylesheet" href="../assets/css/style.css">
   <link rel="stylesheet" href="../book/book.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,7 +14,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
 </head>
 
-<body data-book-slug="geometric-politics">
+<body data-book-slug="geometric-politics" data-chapter-id="ch12_coalitions">
   <nav id="main-nav">
     <div class="nav-inner">
       <a href="../index.html" class="nav-brand">
@@ -36,6 +37,11 @@
         <span class="breadcrumb-sep">&rsaquo;</span>
         <span class="breadcrumb-current">Chapter 12: Coalition Building as Pareto Optimization</span>
       </nav>
+      <div class="chapter-nav-top">
+        <a href="ch11_media.html" class="nav-prev">&larr; Chapter 11: Media as Heuristic Corruption</a>
+        <a href="index.html" class="nav-toc">Contents</a>
+        <a href="appendix_a_math.html" class="nav-next">Appendix A: Mathematical Prerequisites &rarr;</a>
+      </div>
 
       <div class="chapter-content">
 <h1 id="chapter-12-coalition-building-as-pareto-optimization">Chapter 12: Coalition Building as Pareto Optimization</h1>
@@ -85,7 +91,7 @@
 <p>A coalition fractures when external events or internal dynamics increase the variance of members&rsquo; positions on a dimension that was previously within $A_C$.</p>
 <p><strong>Theorem 6 (Coalition Fragility).</strong> <em>A coalition $C$ with agreement submanifold $A_C$ of dimension $\dim(A_C) = k$ is vulnerable to fracture on any dimension $d_i \notin A_C$ for which the within-coalition variance $\sigma_i^2(C)$ exceeds the tolerance threshold $\epsilon^2$. The fragility index of the coalition is:</em></p>
 <p>$$F(C) = \frac{d - \dim(A_C)}{d} \cdot \max_{d_i \notin A_C} \frac{\sigma_i^2(C)}{\epsilon^2}$$</p>
-<p><em>A coalition with $F(C) > 1$ is geometrically fragile: it contains more disagreement energy on its worst dimension than its agreement structure can contain.</em></p>
+<p><em>A coalition with $F(C) &gt; 1$ is geometrically fragile: it contains more disagreement energy on its worst dimension than its agreement structure can contain.</em></p>
 <p>For the American party coalitions with $\dim(A) \approx 2$ and $d = 6$, the fragility coefficient $(d - \dim(A))/d = 4/6 \approx 0.67$, meaning that the fragility index reaches 1 (the fracture threshold) when the within-coalition variance on the worst disagreement dimension exceeds $1.5 \cdot \epsilon^2$. Both coalitions are operating near this threshold, explaining the persistent anxiety within both parties about coalition stability.</p>
 <h2 id="cross-partisan-coalitions-on-the-manifold">Cross-Partisan Coalitions on the Manifold</h2>
 <p>The most geometrically interesting coalitions are cross-partisan: they unite voters from opposing parties who agree on a suppressed dimension.</p>
@@ -141,7 +147,9 @@
       </div>
 
       <div class="chapter-nav-bottom">
-        <a href="index.html" class="nav-toc">&larr; Contents</a>
+        <a href="ch11_media.html" class="nav-prev">&larr; Chapter 11: Media as Heuristic Corruption</a>
+        <a href="index.html" class="nav-toc">Contents</a>
+        <a href="appendix_a_math.html" class="nav-next">Appendix A: Mathematical Prerequisites &rarr;</a>
       </div>
     </div>
   </article>
@@ -169,6 +177,7 @@
         {left: '\\\\(', right: '\\\\)', display: false},
         {left: '\\\\[', right: '\\\\]', display: true}
       ],
+      ignoredTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
       throwOnError: false
     });"></script>
 </body>
