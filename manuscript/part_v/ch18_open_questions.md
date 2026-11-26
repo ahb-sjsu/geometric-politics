@@ -56,7 +56,7 @@ But the analogy has gaps:
 
 - **Is the analogy misleading?** Physical conservation laws are exact: energy is exactly conserved in a closed system. Political legitimacy, even if "conserved" in some sense, is likely conserved only approximately — with dissipation from practical deviations from gauge invariance (corruption, voter suppression, ballot design effects). An approximate conservation law is still useful, but it requires different mathematical machinery than an exact one.
 
-The question is genuinely open. The series has produced conservation-like results in ethics (representation-invariance of harm accounting under $U(1)_H$ symmetry) and economics (conservation of value under re-description), but these were possible because the domain Lagrangians were specified. The political Lagrangian remains to be constructed.
+The question is genuinely open. The series has posited conservation-like statements in ethics (representation-invariance of harm accounting under $U(1)_H$ symmetry) and economics (conservation of value under re-description), but these were possible because the domain Lagrangians were specified. The political Lagrangian remains to be constructed.
 
 ## Question 4: Can Deliberation Scale?
 

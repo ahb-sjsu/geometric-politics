@@ -78,11 +78,11 @@ Bail, C. A., et al. (2018). Exposure to opposing views on social media can incre
 
 ## The Geometric Series
 
-Bond, A. H. (2026a). *Geometric Methods in Computational Modeling*. [Book 1: Mathematical toolkit — Riemannian geometry, hyperbolic embeddings, persistent homology, SPD manifolds, gauge theory.]
+Bond, A. H. (2026a). *Geometric Methods: Computational Modeling*. [Book 1: Mathematical toolkit — Riemannian geometry, hyperbolic embeddings, persistent homology, SPD manifolds, gauge theory.]
 
-Bond, A. H. (2026b). *Geometric Reasoning: From Search to Manifolds*. [Book 2: Parent framework — heuristic field formalism, geodesic deviation, failure modes, gauge invariance, Scalar Irrecoverability Theorem.]
+Bond, A. H. (2026b). *Geometric Ethics: The Mathematical Structure of Moral Reasoning*. [Book 2: 9D stratified moral manifold, $V_4 \times U(1)_H$ symmetry, Bond Index, No Escape Theorem.]
 
-Bond, A. H. (2026c). *Geometric Ethics: The Mathematical Structure of Moral Reasoning*. [Book 3: 9D stratified moral manifold, $V_4 \times U(1)_H$ symmetry, Bond Index, No Escape Theorem.]
+Bond, A. H. (2026c). *Geometric Reasoning: From Search to Manifolds*. [Book 3: Parent framework — heuristic field formalism, geodesic deviation, failure modes, gauge invariance, Scalar Irrecoverability Theorem.]
 
 Bond, A. H. (2026d). *Geometric Economics: Decision Manifolds, Equilibria, and the Geometry of Markets*. [Book 4: Bond Geodesic Equilibrium, economic gauge group, conservation of value.]
 

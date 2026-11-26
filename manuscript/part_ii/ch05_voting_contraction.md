@@ -76,7 +76,7 @@ For a plurality election ($\dim(\mathcal{O}) \approx 1$ in an information-theore
 
 This is not a pessimistic estimate. It is a lower bound. The actual information loss may be higher, depending on the structure of the preference distribution and the candidates' positions. In District 7, where the preference distribution is anisotropic and the candidates cluster on the $d_1$-$d_2$ plane, the effective information loss exceeds 83% because the candidates do not sample the full manifold — they offer voters a choice along one or two dimensions and are silent on the rest.
 
-The theorem is a political instantiation of the Scalar Irrecoverability Theorem from *Geometric Reasoning* (Ch. 10). The parent theorem states that scalar contractions of manifolds are lossy and the loss is irrecoverable. The Democratic Irrecoverability Theorem instantiates this for the specific contraction that is voting: a map from a multi-dimensional preference space to a low-dimensional outcome space.
+The theorem is a political instantiation of the Scalar Irrecoverability Theorem from *Geometric Reasoning*, Theorem 13.1, a conditional theorem (that book's Chapter 13; restated in that book's Section 10.7). The parent theorem states that scalar contractions of manifolds are lossy and the loss is irrecoverable. The Democratic Irrecoverability Theorem instantiates this for the specific contraction that is voting: a map from a multi-dimensional preference space to a low-dimensional outcome space.
 
 ## The Representation Paradox
 

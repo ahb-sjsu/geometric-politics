@@ -19,7 +19,7 @@
 
 Voters do not compute manifold distances from raw policy data. They do not read legislation, analyze budget proposals, or compare candidates' six-dimensional manifold positions. Instead, they estimate political distances using the heuristic provided by their media environment. The media ecosystem — news organizations, social media platforms, algorithmically curated feeds, podcasts, talk radio, personal conversations — functions as the heuristic field for political reasoning.
 
-In the parent framework (*Geometric Reasoning*, Ch. 3), a heuristic field $\mathbf{h}: \mathcal{M} \to T\mathcal{M}$ guides search by estimating distances to goals. A well-calibrated heuristic is *admissible*: it never overestimates the true cost. An admissible heuristic guides the searcher along geodesics — optimal paths. A corrupted heuristic is one that systematically misestimates distances, guiding the searcher along suboptimal paths or into dead ends.
+In the parent framework (*Geometric Reasoning*, Ch. 3), a heuristic field $h: \mathcal{M} \to \mathbb{R}$ guides search by estimating distances to goals. A well-calibrated heuristic is *admissible*: it never overestimates the true cost. An admissible heuristic guides the searcher along geodesics — optimal paths. A corrupted heuristic is one that systematically misestimates distances, guiding the searcher along suboptimal paths or into dead ends.
 
 A well-calibrated media heuristic would accurately represent the manifold: it would report on all six dimensions, estimate distances correctly, avoid systematic distortion, and provide voters with the information needed to compute accurate manifold distances between themselves and candidates, policies, and other voters. A corrupted media heuristic misrepresents the manifold — and the corruption shapes political judgment.
 
@@ -43,7 +43,7 @@ The consequence: voters who consume different media experience different effecti
 
 ### Mode 2: Distance Inflation
 
-Affective media coverage inflates the perceived distance between political positions. The framing effect documented in *Geometric Communication*'s 8.9$\sigma$ result applies directly: the same moral scenario, described in euphemistic versus dramatic language, produces judgment displacements significant at 8.9$\sigma$ when combined across five models. Political framing — which is systematic, targeted, and repeated — produces cumulative metric distortion that dwarfs any single framing effect.
+Affective media coverage inflates the perceived distance between political positions. The framing effect documented in *Geometric Communication*'s 8.9$\sigma$ result (15.3$\sigma$ in the later run reported in *Geometric Cognition*, Chapter 7) applies directly: the same moral scenario, described in euphemistic versus dramatic language, produces judgment displacements significant at 8.9$\sigma$ when combined across five models. Political framing — which is systematic, targeted, and repeated — produces cumulative metric distortion that dwarfs any single framing effect.
 
 The mechanism is straightforward. A policy position — say, "expand the Affordable Care Act to cover dental and vision" — has a specific location on the manifold. But the position can be described in multiple ways:
 

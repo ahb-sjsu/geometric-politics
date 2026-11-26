@@ -15,12 +15,12 @@
 
 ## The General Construction
 
-The Political Bond Index is the political instantiation of the general Bond Index from *Geometric Ethics* (Ch. 18). Across the Geometric Series, the Bond Index measures the expected deviation between the manifold-optimal path and the institutionally constrained path:
+The Political Bond Index follows the clinical Bond Index of *Geometric Ethics* (Ch. 21, Definition 21.10) and *Geometric Medicine* (Ch. 12): it measures the expected deviation between the manifold-optimal path and the institutionally constrained path. It shares a name with the Bond Index of *Geometric Ethics* (Ch. 18), which measures invariance under re-description (the mean deviation over declared re-descriptions, divided by a tolerance), and is a different quantity:
 
-- In ethics, the Bond Index measures the gap between the moral geodesic (the ethically optimal trajectory) and the institutional trajectory (what the system actually does).
+- In ethics, the clinical Bond Index (Ch. 21 there) measures the gap between the moral geodesic (the ethically optimal trajectory) and the institutional trajectory (what the system actually does).
 - In medicine, the clinical Bond Index measures the gap between the clinical geodesic and the institutional protocol.
 - In law, the Legal Bond Index measures sentencing disparity — the gap between gauge-invariant sentencing and actual sentencing.
-- In economics, the Bond Index measures the gap between the BGE and the Nash equilibrium.
+- In economics, the name is used for the other kind of quantity: the gauge violation of an evaluation under one re-description (*Geometric Economics*, Section 4.4).
 
 In politics, the Bond Index measures representational quality: the systematic gap between how well voters are represented under a given electoral system and how well they could be represented under manifold-optimal assignment.
 

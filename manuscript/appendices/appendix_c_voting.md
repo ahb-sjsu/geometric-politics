@@ -88,7 +88,7 @@ For each electoral system $E$ to be compared:
    - Approval: $R \approx (d-1)/d \cdot (1 - e^{-\tau^2/2})$ (depends on threshold)
    - Condorcet: $R = \min(d, \binom{k}{2})/d \cdot \text{(ordinal correction)}$
 
-3. **Compute the Political Bond Index.** $BI(S, E) = \mathbb{E}[d_\mathcal{P}(v, r(v)) - d_\mathcal{P}(v, r^*(v))]$, where $r(v)$ is the voter's representative under system $E$ and $r^*(v)$ is the manifold-optimal representative.
+3. **Compute the Political Bond Index.** $BI(S, E) = \mathbb{E}[d_\mathcal{P}(v, r(v)) - d_\mathcal{P}(v, r^*(v))]$, where $r(v)$ is the voter's representative under system $E$ and $r^*(v)$ is the manifold-optimal representative. It shares its name with the Bond Index of *Geometric Ethics* (Chapter 18 there), which is a different quantity: the mean deviation of an evaluation over declared re-descriptions, divided by a tolerance.
 
 4. **Compute dimension-specific BI.** For each dimension $i$: $BI_i(S, E) = \mathbb{E}[|v^{(i)} - r(v)^{(i)}| - |v^{(i)} - r^*(v)^{(i)}|]$.
 

@@ -17,7 +17,7 @@
 
 ## The Heuristic Field Formalism in Politics
 
-The heuristic field formalism, developed in *Geometric Reasoning* (Ch. 3), models any guidance system — any source of information that helps a searcher navigate a complex space — as a vector field on the search manifold. The heuristic field $\mathbf{h}: \mathcal{M} \to T\mathcal{M}$ assigns to each point on the manifold a vector indicating the direction the guidance system recommends.
+The heuristic field formalism, developed in *Geometric Reasoning* (Ch. 3), models any guidance system — any source of information that helps a searcher navigate a complex space — as a scalar field on the search manifold that estimates the cost-to-go; its negative gradient $\mathbf{h} = -\nabla h: \mathcal{M} \to T\mathcal{M}$ assigns to each point on the manifold a vector indicating the direction the guidance system recommends.
 
 In the parent framework, the heuristic field applies to individual reasoning: System 1's fast pattern-matching is a heuristic that guides System 2's deliberate search. In economics (*Geometric Economics*, Ch. 5), the heuristic field is the price signal: prices estimate the cost of moving from one economic state to another, guiding agents along efficient paths. In law (*Geometric Law*, Ch. 6), the heuristic field is legal precedent: prior cases estimate how new cases should be decided, guiding judges along the path of stare decisis.
 

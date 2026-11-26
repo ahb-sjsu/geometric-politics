@@ -1,6 +1,6 @@
 # Appendix A: Mathematical Prerequisites
 
-This appendix provides the mathematical background needed to follow the formal arguments in the main text. It is self-contained for a reader with undergraduate linear algebra and basic real analysis. For complete proofs and deeper development, see *Geometric Methods in Computational Modeling* (Bond, 2026a) and *Geometric Reasoning: From Search to Manifolds* (Bond, 2026c).
+This appendix provides the mathematical background needed to follow the formal arguments in the main text. It is self-contained for a reader with undergraduate linear algebra and basic real analysis. For complete proofs and deeper development, see *Geometric Methods: Computational Modeling* (Bond, 2026a) and *Geometric Reasoning: From Search to Manifolds* (Bond, 2026c).
 
 ---
 
