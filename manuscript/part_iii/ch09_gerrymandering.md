@@ -57,6 +57,10 @@ Packing creates districts with small $GI_j = \frac{1}{|D^{-1}(j)|} \sum_{v \in D
 
 Cracking creates districts whose preference manifold images are bimodal: two clusters in preference space forced into the same geographic district. The $GI$ for each such district is elevated because the Frechet mean is between the two clusters, far from both.
 
+![Figure 9.1](figures/ch09_fig1.svg)
+
+*Figure 9.1. Cracking in preference space, with the gerrymandering index of Definition 4 (the mean distance from each voter to the center of the voter's district). Twenty-four illustrative voters form two communities. Kept whole (left), each district is one community and the index is 0.45. Cracked (right), each district takes half of each community, its image is bimodal, its center falls between the two clusters and far from both, and the index rises to 1.51. Euclidean distance, two dimensions.*
+
 ### The Efficiency Gap and Its Geometric Limitation
 
 The efficiency gap, proposed by Eric McGhee in 2014 and litigated in *Gill v. Whitford* (2018), measures the asymmetry in "wasted votes" between parties. A wasted vote is one that does not contribute to electing a candidate — either because the voter supported a losing candidate (wasted by loss) or because the voter supported a winning candidate by a margin beyond what was needed to win (wasted by excess). A large efficiency gap indicates that one party wastes far more votes than the other — the hallmark of gerrymandering.

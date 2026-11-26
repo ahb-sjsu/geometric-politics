@@ -14,6 +14,10 @@
 
 ---
 
+![Figure 16.1](figures/ch16_fig1.svg)
+
+*Figure 16.1. The hypothetical AI-assisted budgeting pilot of District 7, as the chapter describes it. Residents answer an online survey of 12 questions that places them on the six dimensions; the system takes the Fréchet mean of the respondents and the allocation across 8 categories closest to it on the budget hyperplane. The audit finds that low-income neighborhoods respond least, so d5, institutional trust, is underweighted for them; the fix reweights to the district's demographics and adds offline elicitation. Even then, 15,000 participants are 7.5% of the district.*
+
 ## Three Intersections of AI and Politics
 
 Artificial intelligence intersects with democratic politics in three ways, each with distinct geometric implications:

@@ -31,6 +31,10 @@ $$\text{cost}_O(p) = \beta_O \cdot d_\mathcal{P}(p, W)^2$$
 
 where $d_\mathcal{P}(p, W) = \inf_{w \in W} d_\mathcal{P}(p, w)$ is the manifold distance from $p$ to the nearest point in $W$, and $\beta_O$ is the penalty coefficient. Positions inside $W$ have zero Overton cost. Positions outside $W$ incur cost proportional to the square of their distance from the window.
 
+![Figure 10.1](figures/ch10_fig1.svg)
+
+*Figure 10.1. The Overton penalty of the chapter, cost = β d(p, W)², on one dimension through a window W, drawn for β = 1 and a window of half-width 1 (illustrative values). Inside the window the cost is zero. Outside it grows with the square of the distance to the window: two units past the boundary cost four times as much as one.*
+
 ## Window Geometry
 
 The Overton window has geometric structure:
@@ -54,6 +58,10 @@ $$\text{Overton cost}(\gamma^*_{\text{admissible}}) = \ell(\gamma^*_{\text{admis
 where $\ell(\cdot)$ is path length on the manifold.
 
 Politicians who successfully shift the window are creating geodesic shortcuts: by expanding $W$, they make previously costly trajectories feasible. The politician who makes single-payer healthcare "thinkable" has expanded the window on $d_1$, creating a shorter path from the current center-left position to the single-payer position. Before the expansion, the path from center-left to single-payer passed through "radical" territory — outside $W$ — and any politician who traveled it incurred severe Overton penalties. After the expansion, the path stays within $W$, and the Overton cost is zero.
+
+![Figure 10.2](figures/ch10_fig2.svg)
+
+*Figure 10.2. Definition 5 and the Overton cost in a two-dimensional sketch. Left: the straight geodesic between two positions inside the window W leaves it, so an Overton-admissible path must detour around the excluded region; with the illustrative lengths shown the detour is 5.62 against 2.40, an Overton cost of 3.22. Right: once the window expands to include that region, the geodesic is admissible and the cost is zero, the geodesic shortcut the chapter describes. Euclidean lengths.*
 
 ## Window Dynamics
 

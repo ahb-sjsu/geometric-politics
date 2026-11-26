@@ -39,6 +39,10 @@ The Scalar Irrecoverability Theorem predicts this multiplicity exactly. A scalar
 
 This is not a criticism of polling methodology. Pollsters know that a single number is a crude summary. They report demographic cross-tabs, geographic breakdowns, intensity measures. But the headline — the number that enters public discourse, shapes media narratives, and drives campaign strategy — is the scalar. And the scalar is what policymakers and voters act on.
 
+![Figure 2.1](figures/ch02_fig1.svg)
+
+*Figure 2.1. The chapter's four hypothetical electorates that all report 47% approval. (A) The same 47% approve on every dimension. (B) Approval differs by dimension. (C) Approval differs by intensity: 20% strong plus 27% mild approval make the 47%. (D) Approval differs by place. In (B) and (D) the chapter calls the 47% a weighted average, weighted by salience in (B) and by population in (D); the weights are not given, so the dashed line marks 47% for comparison only.*
+
 ## The Favorability Paradox
 
 If the approval rating is a poor summary of political sentiment, the candidate favorability comparison is worse. A favorability rating measures how voters feel about a political figure, typically on a four-point scale: very favorable, somewhat favorable, somewhat unfavorable, very unfavorable. The net favorability — the percentage of favorable responses minus the percentage of unfavorable responses — is reported as a single number.
@@ -82,6 +86,10 @@ Change the candidates, and you change the projection axis, and the "preferences"
 > *Poll 3 (issue priorities): The top-ranked issues — healthcare, education, housing — are all $d_1$ issues (economic policy). This tells us that $d_1$ is the dimension with the highest salience for the most voters. But the ranking also reveals suppressed-dimension information: climate change ranks fifth, above government corruption. The 31% who prioritize climate are a significant bloc that is invisible in the partisan head-to-head because neither major party has made $d_3$ a campaign axis. The 29% who prioritize government corruption are a $d_5$ bloc that cross-cuts the partisan divide.*
 >
 > *The three polls are three projections of the same manifold. Each tells a partial truth. None tells the whole truth. And the contradictions between them are artifacts of the different projection axes, not evidence of an incoherent electorate.*
+
+![Figure 2.2](figures/ch02_fig2.svg)
+
+*Figure 2.2. A head-to-head poll as the chapter describes it, drawn in two dimensions. The line through candidates A and B is the poll's axis, and each voter is counted for the candidate on whose side of the dashed bisector the voter's projection falls. The voter at the top differs from both candidates on a direction neither of them distinguishes, and the poll can record only a toss-up. Change the candidates and the axis turns. The positions are illustrative.*
 
 ## The Issue Priority Trap
 

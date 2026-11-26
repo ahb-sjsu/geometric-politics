@@ -61,6 +61,10 @@ The political instantiation contributes a specific insight: the correlative symm
 
 [Withdrawn pending restatement under $V_4$, 2026-11-26] The lesson for the general theory: the $D_4$ symmetry is a universal feature of normative relations, not domain-specific. Its appearance in ethics, law, communication, and politics confirms its status as a structural invariant of the parent framework.
 
+![Figure 17.1](figures/ch17_fig1.svg)
+
+*Figure 17.1. The group named in the dated note at the head of Lesson 2. The correlative exchange r and the negation s are commuting involutions and generate the Klein four-group V4 = {e, r, s, rs}. Each edge applies one of them, and applying it twice returns to the start. Every element is its own inverse and no element cycles four positions, so the group has order four. The corners are the group's elements; the figure does not place the chapter's four political relations on them.*
+
 ## Lesson 3: Collective Choice as a New Geometric Regime
 
 The parent theory in *Geometric Reasoning* treats reasoning as individual navigation on a manifold. Each agent has a position, each agent computes a geodesic, each agent navigates toward their goal. The interactions between agents are modeled through the heuristic field (social influences shape the guidance) and the Bond Geodesic Equilibrium (multi-agent geodesic consistency), but the fundamental unit of analysis is the individual trajectory.
@@ -104,6 +108,10 @@ This feedback — institutions creating the manifold dimensions they then operat
 The feedback has profound implications for the framework's normative claims. If the political manifold is partially constituted by institutions, then the Democratic Irrecoverability Theorem's diagnosis — that voting systems lose manifold information — is itself institution-dependent. A different set of institutions might produce a different manifold with different dimensionality, and the irrecoverability bound might be different.
 
 The lesson for the general theory: in some domains, the manifold and the institutions are not separable. The geometry is not a fixed background on which institutions operate but a dynamic structure that institutions help create. A complete geometric theory must account for this co-evolution — the feedback between the manifold and the contraction operators that act on it.
+
+![Figure 17.2](figures/ch17_fig2.svg)
+
+*Figure 17.2. Lesson 5 as a loop. Institutions (parties, campaigns, media, the electoral system) decide which dimensions are politically activated, and activation decides which dimensions voters hold positions on; the institutions then contract the manifold they helped to shape. Below, the chapter's example: environmental priority, d3, absorbed into d1 or d2 in the 1970s, became an independent dimension when institutions began to treat it as one. A schematic of the chapter's posited feedback.*
 
 ## District 7: Four Lessons
 

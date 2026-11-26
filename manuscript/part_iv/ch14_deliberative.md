@@ -33,6 +33,10 @@ A citizens' assembly or deliberative poll brings together a random sample of cit
 
 **Convergence.** The deliberation produces a recommendation — a region of the manifold that the assembly judges to be near-optimal after informed exploration. The recommendation is not a vote (a contraction) but a detailed proposal that preserves dimensional structure.
 
+![Figure 14.1](figures/ch14_fig1.svg)
+
+*Figure 14.1. Deliberation as manifold search, in the five stages of the preceding section. Participants start from positions and maps distorted by the media corruption modes of Chapter 11; briefings activate suppressed dimensions; neutral framing and data correct the metric; in-person dialogue shrinks perceived distances; and the assembly converges on a detailed proposal rather than a vote. A schematic of the chapter's posited mechanism.*
+
 ## Fishkin's Empirical Evidence, Geometrized
 
 James Fishkin's Deliberative Polling experiments, conducted over three decades in dozens of countries, provide the best empirical data on what happens when citizens explore the political manifold. The key findings, reinterpreted through the geometric framework:
@@ -68,6 +72,10 @@ Participatory budgeting — pioneered in Porto Alegre, Brazil, and now practiced
 The budget constraint is a hyperplane in resource space: the total allocation must equal the available budget. The citizens' preferences define a distribution on the preference manifold: each citizen has an ideal allocation across the available categories (infrastructure, education, public safety, parks, social services, etc.). The optimal allocation — the one that best represents the citizens' collective preferences — is the point on the budget hyperplane closest to the preference distribution's Frechet mean on the full manifold.
 
 Under traditional budgeting, the allocation is determined by elected officials whose positions on the manifold may differ from the electorate's Frechet mean (the Representation Paradox of Chapter 5). Under participatory budgeting, the citizens directly estimate the Frechet mean through deliberation and voting. The process is not perfect — it still involves contractions (voting within the participatory budgeting process) — but it preserves more dimensional structure than representative budgeting because the participants interact with the multi-dimensional trade-offs directly.
+
+![Figure 14.2](figures/ch14_fig2.svg)
+
+*Figure 14.2. Participatory budgeting as the chapter states it, with two spending categories. Each dot is one citizen's ideal allocation; each asks for more than the budget allows. The budget constraint is a line (a hyperplane in more categories), and the allocation the chapter calls optimal is the point on it closest to the citizens' mean. Eight illustrative citizens, a budget of 10 units and Euclidean distance.*
 
 ## Case Studies in Deliberation
 

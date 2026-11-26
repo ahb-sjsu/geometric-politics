@@ -88,6 +88,10 @@ The 2020s American electorate exhibits **high sorting with moderate polarization
 
 The 1D projection conflates sorting and polarization because both produce bimodal 1D distributions. The geometric framework distinguishes them by examining the full covariance structure: sorting increases inter-dimensional correlation without increasing centroid distance; polarization increases centroid distance without necessarily affecting inter-dimensional correlation.
 
+![Figure 8.1](figures/ch08_fig1.svg)
+
+*Figure 8.1. The sorting-polarization distinction as the chapter defines it, drawn with two parties in a plane of two dimensions. Sorting is drawn as within-party tightness (small circles), the chapter's decrease in within-party variance; polarization is the gap between the party centroids. Below each plane is the distribution projected on the line through the centroids, the partisan axis. Tight parties look bimodal even when close (left); loose parties look unimodal even when far apart (middle). Drawn for within-party standard deviations 0.35 and 1.3 and centroid gaps 1.0 and 2.4, illustrative values.*
+
 ## Affective Polarization as Metric Distortion
 
 Affective polarization — the increasing dislike of the opposing party — is the most dramatic trend in American politics over the past two decades. It has grown faster than policy polarization, is more widely distributed across the electorate, and has more dramatic behavioral consequences (unwillingness to socialize across party lines, disapproval of interparty marriage, dehumanization of the other party's supporters).

@@ -91,6 +91,10 @@ This has immediate consequences for representation. An elected official who shar
 
 The representation is a fiction. The voting system, by compressing six dimensions to one, has ensured that no representative can faithfully represent a multi-dimensional electorate.
 
+![Figure 1.1](figures/ch01_fig1.svg)
+
+*Figure 1.1. Economic policy (d1, left to right) against social values (d2, liberal to conservative), with the one-dimensional score taken, as the chapter's averaging example takes it, as the average of the two. Every voter on one dashed line receives the same score. The libertarian, the communitarian populist and the centrist all score 0, and nothing computed from the score can tell them apart. The positions are illustrative.*
+
 ## District 7: Five Elections, Five Winners
 
 The consequences of dimensional compression are not abstract. They play out in every election, in every district, every time a multi-dimensional electorate is forced through a one-dimensional voting system.

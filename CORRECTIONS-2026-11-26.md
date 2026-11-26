@@ -64,3 +64,18 @@ Nothing below was changed, because the right value could not be established from
 15. **Hohfeldian assignments in Chapter 17.** The four political relations pair "right" with "liberty" as opposites and give "exposure" the state's "power" as correlative. In Hohfeld and in Geometric Ethics the opposite of a right is a no-right, and power and liability belong to the second-order relations. The V4 restatement of Lesson 2 keeps the text's pairings. The author may wish to realign them.
 16. **Chapter 15, final section.** The text says the Democratic Irrecoverability Theorem guarantees a nonzero Bond Index for any contraction. The theorem bounds information loss and does not mention the Bond Index.
 17. **OUTLINE.md** still plans "the D4 of political symmetry" for Chapter 17. It is a planning file and was not edited.
+
+## Found while drawing the figures (2026-11-26), not changed
+
+These were noticed while the figures were drawn. No figure draws them.
+
+1. Chapter 7, "The Cycle That Isn't": the distance table puts the exurban belt nearer B (2.2) than A (5.1), which ranks C > B > A, not the stated C > A > B; with that ranking there is no cycle (B beats A 65-35 and C 68-32). "Manifold Condorcet winner" is defined as the lowest mean distance, which is not a pairwise-majority criterion.
+2. Chapter 7, McKelvey section: "the intersection of dimension-specific medians is generically empty" is not right as stated; per-dimension medians always define a point. Generic emptiness concerns the median lines in every direction (Plott's condition).
+3. Chapter 10: the formula cost = beta d(p, W)^2 is zero inside the window and continuous at its boundary, while "Overton as Political Curvature" says the cost rises inside the window and jumps at the boundary.
+4. Chapter 16: the AI pilot's Bond Index is 0.4 in the running example and 0.7 in "District 7: The AI Pilot", both against 1.2; the text does not say whether these are before and after the sampling fix.
+5. Chapter 4 gives the combined urban core the centroid (-1.5, -0.3, 0.8, 0.0, -1.2, 1.5); Chapter 9 gives that vector to Eastfield alone and a different one to the corridor. Chapter 9 calls the corridor's d5 of -0.8 "moderate" in the bimodality test but says corridor and exurban voters "both distrust institutions".
+6. Chapter 6 proof: "maximizing the candidate's alignment with the electorate's mean along e" reads as a leftover of the withdrawn second form; the one form minimizes the squared offset.
+7. Chapter 6: I_debate = Vol(span{q_1, ..., q_k}) is ill-defined (a span has zero volume in six dimensions); it probably means the k-volume of the parallelotope. The "perhaps 40%" figure has no source.
+8. Theorem 6 (Chapter 12) calls a coalition vulnerable whenever sigma^2 > epsilon^2, but the fragility index exceeds 1 only when sigma^2/epsilon^2 > d/(d - dim A).
+9. Chapter 11: "distortion factor 2.4" (a ratio) and the displacement factor delta (1.39 for the same numbers) are two different "factors" with one name.
+10. Chapter 14: the BC Citizens' Assembly figures (160 members, 58% against a 60% threshold) and the Irish 66% carry no citation.

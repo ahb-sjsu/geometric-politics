@@ -19,6 +19,10 @@
 
 ---
 
+![Figure 7.1](figures/ch07_fig1.svg)
+
+*Figure 7.1. The three blocs of the running example and their rankings. Each arrow points from the winner to the loser of a pairwise majority vote, with the shares computed from the bloc sizes: A beats B 67 to 33, B beats C 68 to 32, and C beats A 65 to 35. Every candidate loses to someone, so there is no Condorcet winner. District 7's blocs and shares are illustrative.*
+
 ## Arrow's Theorem: The Standard Statement
 
 Kenneth Arrow's impossibility theorem, published in 1951, is the most important result in social choice theory and one of the most cited theorems in the social sciences. It states that no social welfare function — no systematic procedure for aggregating individual preference orderings into a social preference ordering — can simultaneously satisfy three axioms:
@@ -105,6 +109,10 @@ The chaos is not a failure of voters' rationality. It is a failure of the aggreg
 Geometrically, the chaos is a consequence of the non-transitivity of majority rule on multi-dimensional manifolds. On a 1D manifold, majority rule is transitive and the median voter's position is a stable equilibrium (the Condorcet winner). On a manifold with $d \geq 2$, majority rule generically has no stable equilibrium — the median on one dimension is different from the median on another, and the intersection of dimension-specific medians is generically empty.
 
 The resolution, again, is dimensional: expand the output space. Instead of asking "which point on the manifold does the majority prefer?" (a question that may have no answer), ask "what region of the manifold is Pareto-undominated?" (a question that always has an answer, and the answer is the Pareto frontier — a subset of the manifold, not a single point).
+
+![Figure 7.2](figures/ch07_fig2.svg)
+
+*Figure 7.2. McKelvey's result as the chapter reads it, for three voters with illustrative ideal points in two dimensions, each preferring positions nearer their own ideal point. Each circle passes through the position p, here the centroid of the three ideal points, and encloses the positions that voter prefers to p. The shaded petals hold the positions that two of the three voters prefer to p, such as q. They are not empty, so p loses a majority vote; for these three voters every position does, which is the empty majority-rule core of McKelvey's result.*
 
 ## The Gibbard-Satterthwaite Connection
 

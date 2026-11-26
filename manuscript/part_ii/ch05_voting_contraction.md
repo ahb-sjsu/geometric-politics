@@ -15,6 +15,10 @@
 
 ---
 
+![Figure 5.1](figures/ch05_fig1.svg)
+
+*Figure 5.1. The information flow of the chapter's hypothetical District 7 election, 200,000 voters and five candidates under plurality. Each stage keeps fewer quantities than the one before: 1,200,000 coordinates, 200,000 ballot labels, five counts, one name. The bars count the quantities each stage carries, on a logarithmic scale.*
+
 ## The Voting Function
 
 A vote is a function. Let us formalize it.
@@ -133,6 +137,10 @@ The five voting systems produce three different winners:
 **5. Condorcet:** The Condorcet winner is the candidate who beats every other candidate in a pairwise comparison. Candidate C beats A (51-49, winning moderates and some conservatives), beats B (54-46, winning moderates and progressives), beats D (58-42, winning everyone except strong environmentalists), and beats E (65-35, winning almost everyone). **Winner: Candidate C (Condorcet winner).**
 
 Five voting systems. Five outcomes. Three different winners (A, B, or C, depending on the system). The same voters, the same manifold, the same preferences. The outcomes differ because each voting system is a different contraction of the manifold, and each contraction discards different information.
+
+![Figure 5.2](figures/ch05_fig2.svg)
+
+*Figure 5.2. The chapter's hypothetical election: five voting systems applied to one illustrative electorate of District 7. Bars give each candidate's share of first choices and of approvals. Plurality elects B with 31% of first choices; the top-two runoff (52%) and ranked choice (54% after transfers) elect A; approval (61%) and the Condorcet comparison, in which C beats each rival head to head, elect C. Three winners from the same voters.*
 
 ### Information Preservation Ranking
 

@@ -71,6 +71,10 @@ The metric collapse is a degenerate limit of the political metric. The full metr
 
 Within the echo chamber, the voter cannot distinguish between moderate and extreme out-group positions, because both are mapped to "far." A center-right Republican and a far-right extremist are perceived as equally "other" by a voter in a left-wing echo chamber. A center-left Democrat and a far-left revolutionary are perceived as equally "other" by a voter in a right-wing echo chamber. The metric collapse annihilates the nuance that democratic discourse requires.
 
+![Figure 11.1](figures/ch11_fig1.svg)
+
+*Figure 11.1. Perceived against actual manifold distance. A calibrated heuristic lies on the diagonal. Sarah and Mike of the running example are 2.3 units apart and perceive 5.5, a distortion factor of 2.4 (distance inflation). In an echo chamber the metric collapses to a step: in-group positions are perceived at zero and out-group positions as far, whatever their actual distance. Sarah and Mike's numbers are illustrative, and the step is drawn at an illustrative in-group radius.*
+
 ## The Information Diet as Manifold Filter
 
 Different media diets produce different effective manifolds. A voter who consumes diverse, multi-dimensional media — reading both progressive and conservative sources, following policy-focused outlets alongside opinion outlets, consuming local news as well as national — develops a heuristic map that approximates the true manifold more closely. A voter who consumes a narrow, one-dimensional media diet — consuming only partisan sources that project the manifold onto a single axis — develops a heuristic map that is a 1D shadow of the true manifold.

@@ -38,6 +38,10 @@ Six dimensions are proposed based on theoretical decomposition and rough factor 
 
 The question has practical implications: the Democratic Irrecoverability Theorem's lower bound on information loss depends on $d$. If the effective dimensionality is 4 rather than 6, the lower bound on information loss under plurality drops from 83% to 75% — still severe, but less so. Getting the dimensionality right matters for both the theory and its applications.
 
+![Figure 18.1](figures/ch18_fig1.svg)
+
+*Figure 18.1. The lower bound of the Democratic Irrecoverability Theorem (Chapter 5, Theorem 1(c)) on the share of manifold information a single-winner election destroys, (d − dim O)/d with dim O = 1, against the effective dimensionality d. If d is 4 rather than 6 the bound drops from 83% to 75%, as Question 2 states, so the bound depends on getting d right.*
+
 ## Question 3: Is There a Conservation Law for Democratic Legitimacy?
 
 > **Note (2026-11-26).** *Geometric Ethics* withdrew "Conservation of Harm" as a conservation law in June 2026 and kept the weaker claim that harm accounting is invariant under re-description. The last paragraph of this section is restated accordingly. The question itself is unchanged and stays open.

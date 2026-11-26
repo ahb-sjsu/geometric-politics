@@ -142,6 +142,10 @@ The eigenvalue decomposition reveals that District 7's effective dimensionality 
 
 No single dimension explains even 30% of the variance. The first two dimensions together explain only 54%. To capture 85% of the variance, four dimensions are needed. District 7 is a genuinely six-dimensional electorate, and the left-right axis captures less than a third of its political reality.
 
+![Figure 4.1](figures/ch04_fig1.svg)
+
+*Figure 4.1. The centroids of District 7's five communities in standardized coordinates, one row per dimension, as the chapter prints them for its simulated sample. The numbers are illustrative. Communities that sit together on one row sit apart on another: the urban core and the university enclave are close on economics and far apart on identity, and the exurban belt and Meadow Pines are close on social values and far apart on foreign policy and institutional trust.*
+
 ## Manifold Operations: What Can Be Done on $\mathcal{P}$
 
 The manifold $\mathcal{P}$, equipped with the metric $g$ and the covariance matrix $\Sigma$, supports several geometric operations that are fundamental to the analysis of democratic politics.
@@ -159,6 +163,10 @@ In practice, for a manifold with approximately constant curvature over the regio
 $$d_M(v_1, v_2) = \sqrt{(v_1 - v_2)^T \Sigma^{-1} (v_1 - v_2)}$$
 
 The Mahalanobis distance accounts for the covariance structure: movement along a high-variance dimension (where voters are spread out and positions are well-represented) costs less than movement along a low-variance dimension (where positions are concentrated and deviation is conspicuous).
+
+![Figure 4.2](figures/ch04_fig2.svg)
+
+*Figure 4.2. Mahalanobis distance from the center of an illustrative electorate with variance 4 on one dimension and 1 on the other (covariance diag(4, 1)). The solid ellipses are the points at Mahalanobis distance 1 and 2; the dashed circle is Euclidean distance 2. P and Q are equally far in Euclidean terms, but P lies along the high-variance dimension and is 1 unit away, Q along the low-variance dimension and is 2 units away: movement where voters are spread out costs less, as the chapter states.*
 
 ### Center of Mass
 

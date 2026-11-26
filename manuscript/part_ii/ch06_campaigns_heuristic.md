@@ -63,6 +63,10 @@ $$\mathbb{E}[|\langle v - x_C, \mathbf{e} \rangle|^2] = \mathbf{e}^T \Sigma \mat
 
 Minimizing over unit vectors $\mathbf{e}$ is an eigenvalue problem for the matrix $\Sigma + (x_C - \mu)(x_C - \mu)^T$. The optimal axis balances two objectives: minimizing the electorate's variance along $\mathbf{e}$ (choosing a dimension on which voters are clustered, so the candidate is close to many of them) and maximizing the candidate's alignment with the electorate's mean along $\mathbf{e}$ (choosing a dimension on which the candidate is close to the centroid). $\square$
 
+![Figure 6.1](figures/ch06_fig1.svg)
+
+*Figure 6.1. The Campaign Gradient Theorem in its one form, for an illustrative electorate in two dimensions with variance 4 along axis 1 and 1 along axis 2, and a candidate offset (0, 2) from the electorate's mean. Right: for a projection axis at angle θ from axis 1, the electorate's variance along the axis, the candidate's squared offset along it, and their sum, the mean squared projected distance the theorem minimizes. The sum is least on axis 1 (4, against 5 on axis 2): the low-variance axis loses because the candidate is far from the mean along it.*
+
 ### What the Theorem Predicts
 
 The Campaign Gradient Theorem predicts that candidates will:

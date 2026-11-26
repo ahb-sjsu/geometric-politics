@@ -76,6 +76,10 @@ $$F(C) = \frac{d - \dim(A_C)}{d} \cdot \max_{d_i \notin A_C} \frac{\sigma_i^2(C)
 
 For the American party coalitions with $\dim(A) \approx 2$ and $d = 6$, the fragility coefficient $(d - \dim(A))/d = 4/6 \approx 0.67$, meaning that the fragility index reaches 1 (the fracture threshold) when the within-coalition variance on the worst disagreement dimension exceeds $1.5 \cdot \epsilon^2$. Both coalitions are operating near this threshold, explaining the persistent anxiety within both parties about coalition stability.
 
+![Figure 12.1](figures/ch12_fig1.svg)
+
+*Figure 12.1. The fragility index of Theorem 6, F = ((d − dim A)/d) × max σ²/ε², against the worst within-coalition variance in units of the tolerance ε², for d = 6 and agreement submanifolds of dimension 1 to 4. A coalition is geometrically fragile above F = 1. With dim A = 2, the chapter's reading of both American party coalitions, the coefficient is 4/6 and the threshold is reached at 1.5 ε², as the chapter states. Deeper agreement moves the threshold out.*
+
 ## Cross-Partisan Coalitions on the Manifold
 
 The most geometrically interesting coalitions are cross-partisan: they unite voters from opposing parties who agree on a suppressed dimension.
@@ -121,6 +125,10 @@ $$\text{BF}(v, C_i) \leq \text{BF}(v, C_j) \quad \forall v \in C_i, \forall j \n
 where $\text{BF}(v, C)$ is the cost to voter $v$ of membership in coalition $C$ — the manifold distance between $v$'s ideal position and the coalition's agreed-upon position on the agreement submanifold.
 
 The coalition BGE predicts that voters will sort into coalitions that minimize their representational cost on the manifold — not on the 1D axis. The two-party system is a stable equilibrium only if the two-party partition is the BGE — which requires that no voter can achieve lower manifold-distance representation by switching parties or joining a third party. When the manifold structure changes (new dimensions become salient, old correlations weaken), the two-party equilibrium can become unstable, and realignment — the formation of new coalitions around new agreement submanifolds — becomes possible.
+
+![Figure 12.2](figures/ch12_fig2.svg)
+
+*Figure 12.2. The cross-partisan coalition for District 7's environmental bond measure, in the illustrative shares of the chapter: progressive urban voters 30%, moderate suburban parents 25%, libertarian exurban voters 10% and retired pragmatists 8%, 73% if the coalition holds, against the 60% the measure needs. The measure passes with 62%. The numbers after each bloc's name are its manifold distance to the measure as the chapter gives it.*
 
 ## District 7: The Bond Measure Coalition
 

@@ -125,6 +125,10 @@ This is not a conspiracy. No algorithm designer sat down and decided to polarize
 
 The result is what Chapter 11 will analyze in detail: a media ecosystem that systematically corrupts the voter's heuristic field, inflating perceived distances on conflict dimensions and suppressing awareness of agreement dimensions. The algorithmic compression is worse than mass media compression because it is personalized: each voter sees a different projection, optimized for their individual emotional response. The shared political space — the common manifold on which democratic deliberation depends — is replaced by a collection of incompatible 1D projections, each reinforcing its recipient's impression that the other side is distant, threatening, and incomprehensible.
 
+![Figure 3.1](figures/ch03_fig1.svg)
+
+*Figure 3.1. The compounding contraction that the next section describes. A voter's six-dimensional position is compressed by party identification (6D to 1D), again by the voting system (1D to binary), reported by polls (binary to scalar) and interpreted by media (scalar to narrative). In the chapter's account the loss at each stage is irrecoverable, so the losses compound. A schematic of the chapter's argument, not a measurement.*
+
 ## The Democratic Paradox
 
 Modern democracy is higher-dimensional in one sense and lower-dimensional in another.
