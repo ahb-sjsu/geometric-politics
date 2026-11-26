@@ -81,6 +81,8 @@
 <p><em>Proof.</em> The expected squared projected distance is:</p>
 <p>$$\mathbb{E}[|\langle v - x_C, \mathbf{e} \rangle|^2] = \mathbf{e}^T \Sigma \mathbf{e} + |\langle x_C - \mu, \mathbf{e} \rangle|^2$$</p>
 <p>Minimizing over unit vectors $\mathbf{e}$ is an eigenvalue problem for the matrix $\Sigma + (x_C - \mu)(x_C - \mu)^T$. The optimal axis balances two objectives: minimizing the electorate&rsquo;s variance along $\mathbf{e}$ (choosing a dimension on which voters are clustered, so the candidate is close to many of them) and maximizing the candidate&rsquo;s alignment with the electorate&rsquo;s mean along $\mathbf{e}$ (choosing a dimension on which the candidate is close to the centroid). $\square$</p>
+<p><img alt="Figure 6.1" src="figures/ch06_fig1.svg" /></p>
+<p><em>Figure 6.1. The Campaign Gradient Theorem in its one form, for an illustrative electorate in two dimensions with variance 4 along axis 1 and 1 along axis 2, and a candidate offset (0, 2) from the electorate&rsquo;s mean. Right: for a projection axis at angle θ from axis 1, the electorate&rsquo;s variance along the axis, the candidate&rsquo;s squared offset along it, and their sum, the mean squared projected distance the theorem minimizes. The sum is least on axis 1 (4, against 5 on axis 2): the low-variance axis loses because the candidate is far from the mean along it.</em></p>
 <h3 id="what-the-theorem-predicts">What the Theorem Predicts</h3>
 <p>The Campaign Gradient Theorem predicts that candidates will:</p>
 <ol>

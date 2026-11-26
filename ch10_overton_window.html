@@ -65,6 +65,8 @@
 <p>The boundary $\partial W$ is not a hard wall but a gradient: positions just outside the window incur modest social costs (raised eyebrows, editorial criticism), while positions far outside incur severe costs (ridicule, marginalization, electoral oblivion). Formally, the boundary acts as a penalty function:</p>
 <p>$$\text{cost}_O(p) = \beta_O \cdot d_\mathcal{P}(p, W)^2$$</p>
 <p>where $d_\mathcal{P}(p, W) = \inf_{w \in W} d_\mathcal{P}(p, w)$ is the manifold distance from $p$ to the nearest point in $W$, and $\beta_O$ is the penalty coefficient. Positions inside $W$ have zero Overton cost. Positions outside $W$ incur cost proportional to the square of their distance from the window.</p>
+<p><img alt="Figure 10.1" src="figures/ch10_fig1.svg" /></p>
+<p><em>Figure 10.1. The Overton penalty of the chapter, cost = β d(p, W)², on one dimension through a window W, drawn for β = 1 and a window of half-width 1 (illustrative values). Inside the window the cost is zero. Outside it grows with the square of the distance to the window: two units past the boundary cost four times as much as one.</em></p>
 <h2 id="window-geometry">Window Geometry</h2>
 <p>The Overton window has geometric structure:</p>
 <p><strong>Shape.</strong> The window is not a hypersphere — it is not equally wide in all dimensions. In 2020s American politics, the window is wide on $d_2$ (social values — a broader range of social positions is now considered acceptable than at any time in the past century) and narrow on $d_1$ (economics — the range of &ldquo;acceptable&rdquo; economic positions has contracted, with both parties supporting broadly market-oriented policies). The window is irregularly shaped on $d_5$ (trust — anti-institutional positions that were once marginal have entered the mainstream) and asymmetric on $d_6$ (identity — some forms of identity politics are within the window, others are outside).</p>
@@ -77,6 +79,8 @@
 <p>$$\text{Overton cost}(\gamma^*_{\text{admissible}}) = \ell(\gamma^*_{\text{admissible}}) - \ell(\gamma^*_{\text{geodesic}})$$</p>
 <p>where $\ell(\cdot)$ is path length on the manifold.</p>
 <p>Politicians who successfully shift the window are creating geodesic shortcuts: by expanding $W$, they make previously costly trajectories feasible. The politician who makes single-payer healthcare &ldquo;thinkable&rdquo; has expanded the window on $d_1$, creating a shorter path from the current center-left position to the single-payer position. Before the expansion, the path from center-left to single-payer passed through &ldquo;radical&rdquo; territory — outside $W$ — and any politician who traveled it incurred severe Overton penalties. After the expansion, the path stays within $W$, and the Overton cost is zero.</p>
+<p><img alt="Figure 10.2" src="figures/ch10_fig2.svg" /></p>
+<p><em>Figure 10.2. Definition 5 and the Overton cost in a two-dimensional sketch. Left: the straight geodesic between two positions inside the window W leaves it, so an Overton-admissible path must detour around the excluded region; with the illustrative lengths shown the detour is 5.62 against 2.40, an Overton cost of 3.22. Right: once the window expands to include that region, the geodesic is admissible and the cost is zero, the geodesic shortcut the chapter describes. Euclidean lengths.</em></p>
 <h2 id="window-dynamics">Window Dynamics</h2>
 <p>The Overton window is not static. It shifts in response to four forces:</p>
 <h3 id="elite-adoption">Elite Adoption</h3>

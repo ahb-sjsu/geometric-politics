@@ -131,6 +131,8 @@
 - $\lambda_5 = 1.0$ (9% — residual trust)
 - $\lambda_6 = 0.6$ (5% — residual identity)</p>
 <p>No single dimension explains even 30% of the variance. The first two dimensions together explain only 54%. To capture 85% of the variance, four dimensions are needed. District 7 is a genuinely six-dimensional electorate, and the left-right axis captures less than a third of its political reality.</p>
+<p><img alt="Figure 4.1" src="figures/ch04_fig1.svg" /></p>
+<p><em>Figure 4.1. The centroids of District 7&rsquo;s five communities in standardized coordinates, one row per dimension, as the chapter prints them for its simulated sample. The numbers are illustrative. Communities that sit together on one row sit apart on another: the urban core and the university enclave are close on economics and far apart on identity, and the exurban belt and Meadow Pines are close on social values and far apart on foreign policy and institutional trust.</em></p>
 <h2 id="manifold-operations-what-can-be-done-on-math129">Manifold Operations: What Can Be Done on $\mathcal{P}$</h2>
 <p>The manifold $\mathcal{P}$, equipped with the metric $g$ and the covariance matrix $\Sigma$, supports several geometric operations that are fundamental to the analysis of democratic politics.</p>
 <h3 id="distance-computation">Distance Computation</h3>
@@ -140,6 +142,8 @@
 <p>In practice, for a manifold with approximately constant curvature over the region of interest, the geodesic distance is well-approximated by the Mahalanobis distance:</p>
 <p>$$d_M(v_1, v_2) = \sqrt{(v_1 - v_2)^T \Sigma^{-1} (v_1 - v_2)}$$</p>
 <p>The Mahalanobis distance accounts for the covariance structure: movement along a high-variance dimension (where voters are spread out and positions are well-represented) costs less than movement along a low-variance dimension (where positions are concentrated and deviation is conspicuous).</p>
+<p><img alt="Figure 4.2" src="figures/ch04_fig2.svg" /></p>
+<p><em>Figure 4.2. Mahalanobis distance from the center of an illustrative electorate with variance 4 on one dimension and 1 on the other (covariance diag(4, 1)). The solid ellipses are the points at Mahalanobis distance 1 and 2; the dashed circle is Euclidean distance 2. P and Q are equally far in Euclidean terms, but P lies along the high-variance dimension and is 1 unit away, Q along the low-variance dimension and is 2 units away: movement where voters are spread out costs less, as the chapter states.</em></p>
 <h3 id="center-of-mass">Center of Mass</h3>
 <p>The Frechet mean of the preference distribution — the point on the manifold that minimizes the sum of squared distances to all voters — is the manifold center of mass:</p>
 <p>$$\bar{v} = \arg\min_{v \in \mathcal{P}} \sum_{i=1}^n d_\mathcal{P}^2(v, v_i)$$</p>
