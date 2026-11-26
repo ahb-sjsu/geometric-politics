@@ -15,7 +15,7 @@
 
 ## The General Construction
 
-The Political Bond Index is the political instantiation of the general Bond Index from *Geometric Ethics* (Ch. 16). Across the Geometric Series, the Bond Index measures the expected deviation between the manifold-optimal path and the institutionally constrained path:
+The Political Bond Index is the political instantiation of the general Bond Index from *Geometric Ethics* (Ch. 18). Across the Geometric Series, the Bond Index measures the expected deviation between the manifold-optimal path and the institutionally constrained path:
 
 - In ethics, the Bond Index measures the gap between the moral geodesic (the ethically optimal trajectory) and the institutional trajectory (what the system actually does).
 - In medicine, the clinical Bond Index measures the gap between the clinical geodesic and the institutional protocol.
@@ -43,12 +43,12 @@ The Political Bond Index is a manifold-level diagnostic: it detects representati
 
 A gerrymandered map produces representatives who are manifold-far from their constituents (high $BI$) even though they win elections (1D-close). The gerrymander's distortion is precisely the kind of manifold surgery that increases voter-representative distances while preserving or reducing 1D metrics.
 
-From Chapter 9's analysis of District 7:
+For the three District 7 maps of Chapter 9, with illustrative values:
 - Map A (bipartisan): $BI = 1.2$
 - Map B (partisan gerrymander): $BI = 2.8$
 - Map C (algorithmic): $BI = 1.5$
 
-Map B's elevated $BI$ detects the gerrymandering that the efficiency gap missed. The excess $BI$ is concentrated on $d_5$ and $d_6$ (trust and identity), confirming that the gerrymander exploited the trust-identity dimension specifically.
+Map B's elevated $BI$ detects the gerrymandering that the efficiency gap missed. The excess $BI$ is concentrated on $d_5$ and $d_6$ (trust and identity), as expected of a gerrymander that exploited the trust-identity dimension specifically.
 
 ### Minority Vote Dilution
 
@@ -58,7 +58,7 @@ $$BI(S_{\text{minority}}, E) \gg BI(S_{\text{majority}}, E)$$
 
 This inequality is the geometric signature of vote dilution. It detects the same phenomenon that Section 2 of the Voting Rights Act is designed to prevent, but it detects it on the full manifold rather than on the single dimension of racial representation.
 
-In District 7 under Map B, the Bond Index for Eastfield's historically Black voters is 3.5, compared to 2.4 for the district as a whole. The excess — 1.1 units — quantifies the manifold cost of cracking Eastfield from its natural coalition partners.
+In District 7 under Map B, the illustrative Bond Index for Eastfield's historically Black voters is 3.5, compared to 2.4 for the district as a whole. The excess — 1.1 units — quantifies the manifold cost of cracking Eastfield from its natural coalition partners.
 
 ### Dimensional Suppression Detection
 
@@ -68,7 +68,7 @@ When the electoral system rewards candidates who differentiate on $d_1$ and $d_2
 
 $$BI_i(S, E) = \mathbb{E}_{v \in S}\left[|v^{(i)} - r(v)^{(i)}| - |v^{(i)} - r^*(v)^{(i)}|\right]$$
 
-For District 7 under plurality:
+For District 7 under plurality, with illustrative values:
 - $BI_1$ (economics) = 0.8 — moderate gap; the electoral system partially represents economic preferences
 - $BI_2$ (social values) = 0.6 — decent representation on the dimension campaigns emphasize
 - $BI_3$ (environment) = 2.1 — large gap; the electoral system barely represents environmental preferences
@@ -80,7 +80,7 @@ The dimension-specific analysis reveals that District 7's voters are well-repres
 
 ### Electoral System Comparison
 
-The Political Bond Index enables principled comparison across electoral systems applied to the same electorate:
+The Political Bond Index enables principled comparison across electoral systems applied to the same electorate. The values below are illustrative:
 
 | Electoral System | $BI(S, E)$ | Information Preserved |
 |---|---|---|
@@ -103,13 +103,13 @@ The Political Bond Index requires two inputs: manifold distance estimates and re
 
 **Optimal assignment.** The manifold-optimal assignment $r^*(v)$ is computed as the minimum-cost bipartite matching between voters and a hypothetical pool of representatives drawn from the same population. This represents the representation quality that would be achieved if representatives were assigned to minimize total manifold distance — the theoretical optimum.
 
-The computation is feasible for any district with available survey data and roll-call records. The chapter provides worked examples for several real congressional districts, comparing $BI$ across actual versus counterfactual electoral systems.
+The computation is feasible for any district with available survey data and roll-call records. The worked examples in this chapter use the fictional District 7, comparing $BI$ across electoral systems and maps; the computation has not yet been carried out for a real congressional district.
 
 ## Subgroup Analysis: Who Is Best and Worst Represented?
 
 The Political Bond Index can be computed for any subpopulation of voters, revealing which groups are well-represented by the electoral system and which are systematically underrepresented.
 
-**By geography:** Voters in the urban core of District 7 have $BI_{\text{urban}} = 1.8$ under the current plurality system — their representative is nearly 2 manifold units farther from them than optimal. Suburban voters have $BI_{\text{suburban}} = 0.6$ — they are relatively well-represented, because the representative's manifold position (moderate on most dimensions) is closest to the suburban centroid. Exurban voters have $BI_{\text{exurban}} = 1.5$ — poorly represented on the trust-identity dimension ($d_5$-$d_6$), which is their dominant axis of preference but is not contested in the election.
+**By geography:** In the illustrative District 7, voters in the urban core have $BI_{\text{urban}} = 1.8$ under the current plurality system — their representative is nearly 2 manifold units farther from them than optimal. Suburban voters have $BI_{\text{suburban}} = 0.6$ — they are relatively well-represented, because the representative's manifold position (moderate on most dimensions) is closest to the suburban centroid. Exurban voters have $BI_{\text{exurban}} = 1.5$ — poorly represented on the trust-identity dimension ($d_5$-$d_6$), which is their dominant axis of preference but is not contested in the election.
 
 **By demographics:** The dimension-specific Bond Index reveals systematic representational patterns:
 - College-educated voters: well-represented on $d_1$ and $d_3$ (the dimensions that educated voters weight most heavily coincide with the dimensions the electoral system contests), poorly represented on $d_5$ (their high institutional trust is not reflected by either major party's candidates).
@@ -117,7 +117,7 @@ The Political Bond Index can be computed for any subpopulation of voters, reveal
 - Young voters: very poorly represented on $d_3$ (their environmental urgency far exceeds either candidate's position) and $d_5$ (their low institutional trust is not captured by the moderate candidates), well-represented on $d_2$ (social liberalism).
 - Minority voters: poorly represented across all dimensions under the gerrymandered map ($BI_{\text{minority}} = 3.5$), reflecting both cracking (the community is split across districts) and dimensional suppression (the issues that matter most to minority voters — institutional accountability, identity recognition — are not contested in the election).
 
-The subgroup analysis transforms the Bond Index from a district-level summary to a diagnostic tool for representational equity. A low average $BI$ can mask large subgroup disparities: a district where suburban voters have $BI = 0.3$ and urban voters have $BI = 3.0$ has an average $BI$ of approximately 1.2 — which looks acceptable — while containing a severe representational inequality.
+The subgroup analysis transforms the Bond Index from a district-level summary to a diagnostic tool for representational equity. A low average $BI$ can mask large subgroup disparities: a district where two-thirds of the voters are suburban with $BI = 0.3$ and one-third are urban with $BI = 3.0$ has an average $BI$ of 1.2 — which looks acceptable — while containing a severe representational inequality.
 
 The equity criterion: an electoral system is equitable if its subgroup Bond Indices do not vary systematically by race, income, education, or geography. An inequitable system has subgroup $BI$ that correlates with demographic characteristics — some groups are structurally better represented than others, not because of their manifold positions but because of the electoral system's dimensional focus.
 
@@ -137,7 +137,7 @@ All are instances of the same geometric construction: the expected deviation bet
 
 ## District 7: The Numbers
 
-We compute the Political Bond Index for District 7 under three scenarios:
+We give illustrative values of the Political Bond Index for District 7 under three scenarios:
 
 **Scenario 1: Current system (plurality, Map A).** $BI = 1.2$. The voters are moderately well-represented on $d_1$ and $d_2$ but poorly represented on $d_3$-$d_6$. The total representational gap is driven primarily by the suppressed dimensions.
 
@@ -153,6 +153,6 @@ The numbers make the abstract framework concrete. A $BI$ of 2.8 means that the a
 >
 > *We have introduced the Political Bond Index — the geometric measure of representational quality that detects gerrymandering, minority vote dilution, dimensional suppression, and cross-system representational differences. The index is computed on the full preference manifold, capturing failures that 1D metrics miss.*
 >
-> *For District 7, the Bond Index reveals that the gerrymandered map (BI = 2.8) more than doubles the representational gap relative to the fair map (BI = 1.2), and that adopting ranked-choice voting further reduces the gap (BI = 0.9). The numbers quantify what the geometry predicts: more manifold-preserving systems produce more representative outcomes.*
+> *For the fictional District 7, the illustrative Bond Index values show that the gerrymandered map (BI = 2.8) more than doubles the representational gap relative to the fair map (BI = 1.2), and that adopting ranked-choice voting further reduces the gap (BI = 0.9). The illustrative numbers show what the geometry predicts: more manifold-preserving systems produce more representative outcomes.*
 >
 > *Part V looks to the horizon: AI in politics (Chapter 16), what politics teaches the general theory (Chapter 17), and the open questions that remain (Chapter 18).*

@@ -72,7 +72,7 @@ For a plurality election ($\dim(\mathcal{O}) \approx 1$ in an information-theore
 
 This is not a pessimistic estimate. It is a lower bound. The actual information loss may be higher, depending on the structure of the preference distribution and the candidates' positions. In District 7, where the preference distribution is anisotropic and the candidates cluster on the $d_1$-$d_2$ plane, the effective information loss exceeds 83% because the candidates do not sample the full manifold — they offer voters a choice along one or two dimensions and are silent on the rest.
 
-The theorem is a political instantiation of the Scalar Irrecoverability Theorem from *Geometric Reasoning* (Ch. 13). The parent theorem states that scalar contractions of manifolds are lossy and the loss is irrecoverable. The Democratic Irrecoverability Theorem instantiates this for the specific contraction that is voting: a map from a multi-dimensional preference space to a low-dimensional outcome space.
+The theorem is a political instantiation of the Scalar Irrecoverability Theorem from *Geometric Reasoning* (Ch. 10). The parent theorem states that scalar contractions of manifolds are lossy and the loss is irrecoverable. The Democratic Irrecoverability Theorem instantiates this for the specific contraction that is voting: a map from a multi-dimensional preference space to a low-dimensional outcome space.
 
 ## The Representation Paradox
 
@@ -110,7 +110,7 @@ Arrow's impossibility theorem, which Chapter 7 will analyze in detail, states th
 
 ## District 7: Five Voting Systems, Five Outcomes
 
-We now demonstrate the Democratic Irrecoverability Theorem empirically by applying five voting systems to the same preference configuration of District 7.
+We now illustrate the Democratic Irrecoverability Theorem with a hypothetical election, applying five voting systems to the same illustrative preference configuration of District 7.
 
 The five candidates are positioned on the manifold as follows:
 
@@ -120,28 +120,28 @@ The five candidates are positioned on the manifold as follows:
 - **Candidate D (green populist):** $(-0.5, 0.0, 2.5, 0.5, -1.0, 0.5)$. Moderate on economics, centrist on social values, extremely environmentally committed, mildly isolationist, low-trust.
 - **Candidate E (libertarian):** $(1.0, -2.0, 0.0, 1.5, -2.0, -1.0)$. Fiscally conservative, socially very liberal, environmentally indifferent, isolationist, very low trust, cosmopolitan.
 
-The five voting systems produce five different winners:
+The five voting systems produce three different winners:
 
 **1. Plurality:** Each voter selects their closest candidate on the manifold. Candidate A receives 28% (the urban core and university enclave), Candidate B receives 31% (the exurban belt and half of Meadow Pines), Candidate C receives 18% (the inner suburbs), Candidate D receives 14% (environmentally committed voters across the district), and Candidate E receives 9% (libertarian-leaning voters). **Winner: Candidate B (31%).**
 
 **2. Top-two primary:** The top two candidates (A and B) advance to a general election. In the head-to-head, voters who preferred C, D, or E must choose between A and B. Most C voters choose A (closer on the manifold due to $d_2$ and $d_3$). Most D voters choose A (closest on $d_3$). E voters split. **Winner: Candidate A (52%).**
 
-**3. Ranked-choice voting:** Voters rank all five candidates. In the first round, E (9%) is eliminated. E's voters' second choices go primarily to C (libertarians who value centrism) and D (low-trust voters who value environmental action). In the next round, D (now 17%) is still lowest — eliminated. D's votes transfer primarily to A (environmentalists) and C (moderates). C is now at 28%. In the next round, C (28%) is eliminated. C's voters transfer primarily to A (52%). **Winner: Candidate A (52%), but through a different path than the top-two primary.**
+**3. Ranked-choice voting:** Voters rank all five candidates. In the first round, E (9%) is eliminated. E's voters' second choices go primarily to C (libertarians who value centrism) and D (low-trust voters who value environmental action). In the next round, D (now 17%) is still lowest — eliminated. D's votes transfer primarily to A (environmentalists) and C (moderates). C is now at 29%. In the next round, C (29%) is eliminated. C's voters transfer primarily to A (54%). **Winner: Candidate A (54%), but through a different path than the top-two primary.**
 
 **4. Approval voting:** Voters can approve of as many candidates as they want. Most voters approve 2-3 candidates. Candidate C, who is close to many voters on the manifold (near the Frechet mean), is approved by 61% of voters — far more than any other candidate. Candidate A is approved by 47%, Candidate B by 44%, Candidate D by 38%, Candidate E by 22%. **Winner: Candidate C (61% approval).**
 
 **5. Condorcet:** The Condorcet winner is the candidate who beats every other candidate in a pairwise comparison. Candidate C beats A (51-49, winning moderates and some conservatives), beats B (54-46, winning moderates and progressives), beats D (58-42, winning everyone except strong environmentalists), and beats E (65-35, winning almost everyone). **Winner: Candidate C (Condorcet winner).**
 
-Five voting systems. Five outcomes. Two different winners (A, B, or C, depending on the system). The same voters, the same manifold, the same preferences. The outcomes differ because each voting system is a different contraction of the manifold, and each contraction discards different information.
+Five voting systems. Five outcomes. Three different winners (A, B, or C, depending on the system). The same voters, the same manifold, the same preferences. The outcomes differ because each voting system is a different contraction of the manifold, and each contraction discards different information.
 
 ### Information Preservation Ranking
 
-We can compute the Democratic Irrecoverability index for each system:
+We can assign each system an illustrative information-preservation figure:
 
 - **Plurality:** Information preserved $\approx 17\%$. The system uses only first-choice information — a single label per voter.
 - **Top-two primary:** Information preserved $\approx 20\%$. Slightly more than plurality because the two-stage process reveals second-choice information for a subset of voters.
-- **Ranked-choice voting:** Information preserved $\approx 45\%$. The full ranking reveals ordinal preference along multiple manifold axes.
 - **Approval voting:** Information preserved $\approx 33\%$. The approval threshold reveals information about manifold proximity to each candidate but discards cardinal intensity.
+- **Ranked-choice voting:** Information preserved $\approx 45\%$. The full ranking reveals ordinal preference along multiple manifold axes.
 - **Condorcet:** Information preserved $\approx 50\%$. Pairwise comparisons across all candidate pairs extract the maximum ordinal information about the manifold.
 
 The ordering is monotonic: systems that elicit more preference information from each voter preserve more manifold structure. The information preserved is never 100% — even the Condorcet method compresses the continuous manifold to ordinal rankings. But the gap between 17% (plurality) and 50% (Condorcet) is enormous. The choice of voting system determines how much of the electorate's geometric structure survives to influence the outcome.
@@ -172,13 +172,13 @@ The democratic gauge group $G_D$ defines the Political Bond Invariance Principle
 
 **Axiom (Political BIP).** A democratic evaluation — an election, a poll, a representation assessment — is *epistemically well-posed* if and only if it is invariant under all democratic gauge transformations: voter anonymity, option neutrality, and re-description invariance.
 
-The Political BIP is the political instantiation of the Bond Invariance Principle from *Geometric Ethics* (Ch. 11). It requires that democratic outcomes depend on the geometric structure of the preference distribution — the positions voters hold on the manifold — and not on arbitrary features of the description: which voter holds which position, what the candidates are named, or how the preferences are elicited.
+The Political BIP is the political instantiation of the Bond Invariance Principle from *Geometric Ethics* (Ch. 5). It requires that democratic outcomes depend on the geometric structure of the preference distribution — the positions voters hold on the manifold — and not on arbitrary features of the description: which voter holds which position, what the candidates are named, or how the preferences are elicited.
 
 Violations of the Political BIP are systematic democratic failures:
 
 - **Voter suppression** violates anonymity: it makes the outcome depend on *which* voters participate, not just on what preferences are represented.
 - **Ballot order effects** violate neutrality: the candidate listed first receives a small but measurable advantage that has nothing to do with manifold position.
-- **Framing effects in ballot language** violate re-description invariance: the same policy question, framed differently, produces different outcomes, as established by the 8.9$\sigma$ framing effect from *Geometric Communication*.
+- **Framing effects in ballot language** violate re-description invariance: the same policy question, framed differently, produces different outcomes, as illustrated by the framing result from *Geometric Communication* (significant at 8.9$\sigma$ across five models).
 
 The Political Bond Index, introduced in Chapter 15, will measure the magnitude of these violations — the distance between the actual democratic outcome and the gauge-invariant outcome that the manifold structure would produce under a well-posed system.
 
@@ -188,6 +188,6 @@ The Political Bond Index, introduced in Chapter 15, will measure the magnitude o
 >
 > *We have formalized voting as a contraction of the political preference manifold and proved the Democratic Irrecoverability Theorem: any voting function that maps a multi-dimensional preference space to a lower-dimensional outcome destroys information irreversibly, with at least $(d - \dim(\mathcal{O}))/d$ of the manifold information lost. For District 7 under plurality voting, this means at least 83% of the electorate's preference structure is destroyed by the act of voting.*
 >
-> *We have demonstrated this empirically: five voting systems applied to the same preference configuration of District 7 produce five different outcomes, with different winners and different representational qualities. Plurality preserves the least information; Condorcet preserves the most. The choice of voting system is not a technicality — it is a geometric decision about how much of the manifold to discard.*
+> *We have illustrated this with a hypothetical election: five voting systems applied to the same preference configuration of District 7 produce five different outcomes, with three different winners and different representational qualities. Plurality preserves the least information; Condorcet preserves the most. The choice of voting system is not a technicality — it is a geometric decision about how much of the manifold to discard.*
 >
 > *In Chapter 6, we turn to the role of campaigns: the heuristic fields that guide voters' attention, shape the projection axis, and determine which dimension of the manifold becomes salient in the election.*

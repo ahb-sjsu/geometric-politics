@@ -40,7 +40,7 @@ This evidence is not fabricated. But it is one-dimensional. And the one-dimensio
 
 *Observable 1D polarization is necessary but not sufficient evidence for manifold-level polarization.*
 
-*Proof.* Consider a unimodal Gaussian distribution on $\mathbb{R}^d$ with mean $\mu$ and covariance $\Sigma$. The projection onto a unit vector $\mathbf{e}$ produces a 1D distribution with mean $\langle \mu, \mathbf{e} \rangle$ and variance $\mathbf{e}^T \Sigma \mathbf{e}$. This is always unimodal.
+*Proof sketch.* Consider a unimodal Gaussian distribution on $\mathbb{R}^d$ with mean $\mu$ and covariance $\Sigma$. The projection onto a unit vector $\mathbf{e}$ produces a 1D distribution with mean $\langle \mu, \mathbf{e} \rangle$ and variance $\mathbf{e}^T \Sigma \mathbf{e}$. This is always unimodal.
 
 Now consider a unimodal distribution that is not Gaussian but has elongated tails or a ridge-like structure. Specifically, consider a distribution with density $f(x) \propto \exp(-\frac{1}{2}x^T \Sigma^{-1} x) \cdot (1 + \alpha \cdot P_2(\mathbf{e}_1^T x / \sigma_1))$, where $P_2$ is the Legendre polynomial of degree 2 and $\mathbf{e}_1$ is the first principal axis. For suitable $\alpha$, this distribution has a single mode at the origin but produces a bimodal projection onto any axis oblique to $\mathbf{e}_1$.
 
@@ -136,7 +136,7 @@ The American National Election Studies provide the longest continuous time serie
 
 ## District 7: Decomposing the Divide
 
-We apply the geometric decomposition to District 7's "deep divide."
+We apply the geometric decomposition to District 7's "deep divide." The numbers are illustrative.
 
 **The sorting analysis:** District 7 is highly sorted. Party identification predicts positions on all six dimensions with correlation coefficients ranging from $r = 0.3$ ($d_4$, foreign policy) to $r = 0.7$ ($d_2$, social values). The covariance matrix $\Sigma$ has strong inter-dimensional correlations within each party cluster.
 
@@ -152,6 +152,6 @@ The polarization is largely an illusion produced by three compounding distortion
 
 > **DISTRICT 7 — CHAPTER SUMMARY**
 >
-> *We have proved the Polarization Illusion Theorem: a unimodal distribution on the manifold can appear bimodal on a 1D projection. Applied to District 7, the theorem reveals that the district's apparent "deep divide" is a composite of three distinct phenomena: genuine sorting (party ID predicts manifold position), moderate policy polarization (centroid distance 1.5 sigma), and severe affective distortion (perceived distance 3x actual distance). The "polarized nation" narrative is not false, but it is geometrically misleading — it conflates a 1D projection artifact with a manifold-level reality.*
+> *We have stated the Polarization Illusion Theorem and sketched its proof: a unimodal distribution on the manifold can appear bimodal on a 1D projection. Applied to the illustrative District 7, the theorem reveals that the district's apparent "deep divide" is a composite of three distinct phenomena: genuine sorting (party ID predicts manifold position), moderate policy polarization (centroid distance 1.5 sigma), and severe affective distortion (perceived distance 3x actual distance). The "polarized nation" narrative is not false, but it is geometrically misleading — it conflates a 1D projection artifact with a manifold-level reality.*
 >
 > *In Chapter 9, we turn to gerrymandering: the deliberate manipulation of the political manifold's topology through redistricting.*

@@ -54,7 +54,7 @@ Bond Invariance Principle (BIP), Political, Ch. 5
 
 Campaign Gradient Theorem, Ch. 6, Theorem 2
 - optimal projection axis, Ch. 6
-- predictions confirmed empirically, Ch. 6
+- predictions and the campaign literature, Ch. 6
 
 Campaigns, political, Ch. 6
 - as heuristic fields, Ch. 6
@@ -98,9 +98,9 @@ Curvature, political manifold, Ch. 4
 
 ## D
 
-$D_4$ (dihedral group), Ch. 17
+$D_4$ (dihedral group; withdrawn as the Hohfeldian symmetry group, see $V_4$, Klein four-group), Ch. 17
 - political instantiation, Ch. 17
-- universality across series, Ch. 17
+- universality across series (withdrawn pending restatement), Ch. 17
 
 Debate, political, Ch. 6
 - as manifold exploration, Ch. 6

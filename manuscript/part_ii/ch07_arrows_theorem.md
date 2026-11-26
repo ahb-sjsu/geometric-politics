@@ -143,7 +143,7 @@ But now examine the candidates' positions on the full manifold:
 - Candidate B: $(0.0, 0.0, 0.5, 0.0, 0.5, 0.0)$ — centrist, the manifold center of mass
 - Candidate C: $(1.5, 1.0, -0.5, 0.5, -1.0, 1.0)$ — conservative, populist
 
-The manifold distances between each bloc's centroid and each candidate:
+The illustrative manifold distances between each bloc's centroid and each candidate:
 
 | | Dist to A | Dist to B | Dist to C |
 |---|---|---|---|

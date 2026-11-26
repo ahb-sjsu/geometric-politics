@@ -82,7 +82,7 @@ Bond, A. H. (2026a). *Geometric Methods in Computational Modeling*. [Book 1: Mat
 
 Bond, A. H. (2026b). *Geometric Reasoning: From Search to Manifolds*. [Book 2: Parent framework — heuristic field formalism, geodesic deviation, failure modes, gauge invariance, Scalar Irrecoverability Theorem.]
 
-Bond, A. H. (2026c). *Geometric Ethics: The Mathematical Structure of Moral Reasoning*. [Book 3: 9D stratified moral manifold, $D_4 \times U(1)_H$ symmetry, Bond Index, No Escape Theorem.]
+Bond, A. H. (2026c). *Geometric Ethics: The Mathematical Structure of Moral Reasoning*. [Book 3: 9D stratified moral manifold, $V_4 \times U(1)_H$ symmetry, Bond Index, No Escape Theorem.]
 
 Bond, A. H. (2026d). *Geometric Economics: Decision Manifolds, Equilibria, and the Geometry of Markets*. [Book 4: Bond Geodesic Equilibrium, economic gauge group, conservation of value.]
 
@@ -114,4 +114,4 @@ Manin, B. (1997). *The Principles of Representative Government*. Cambridge Unive
 
 Duverger, M. (1954). *Political Parties: Their Organization and Activity in the Modern State*. Wiley. [Duverger's Law: plurality voting produces two-party systems.]
 
-Hohfeld, W. N. (1913). Some fundamental legal conceptions as applied in judicial reasoning. *Yale Law Journal*, 23(1), 16-59. [The eight jural relations whose $D_4$ symmetry appears throughout the series.]
+Hohfeld, W. N. (1913). Some fundamental legal conceptions as applied in judicial reasoning. *Yale Law Journal*, 23(1), 16-59. [The eight jural relations whose symmetry appears throughout the series, modeled by the Klein four-group $V_4$ since *Geometric Ethics* v1.25.]

@@ -77,7 +77,7 @@ This appendix collects the notation used throughout the book. Conventions are co
 | $\tau_A$ | Voter anonymity transformation | Ch. 5 |
 | $\tau_N$ | Option neutrality transformation | Ch. 5 |
 | $\tau_R$ | Re-description invariance transformation | Ch. 5 |
-| $D_4$ | Dihedral group of order 8 (Hohfeldian symmetry) | Ch. 17 |
+| $V_4$ | Klein four-group (Hohfeldian symmetry; replaces the withdrawn dihedral group $D_4$) | Ch. 17 |
 
 ## Coalition Analysis
 

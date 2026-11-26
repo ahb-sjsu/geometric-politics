@@ -9,7 +9,7 @@
 >
 > *It is time to give District 7 a geometry. In the previous chapters, we described the district's six-dimensional political reality informally — economic policy, social values, environmental priority, foreign policy, institutional trust, and identity. Now we formalize this: the voters of District 7 are points on a manifold, and the manifold has structure — a metric, a covariance matrix, curvature. The structure determines which voters are "close" (can be bridged by compromise), which are "far" (require fundamental value change), and which dimensions are correlated (moving along one shifts position on another).*
 >
-> *We begin with a survey. A sample of 2,000 District 7 voters answers a battery of questions designed to locate each voter on the six primary dimensions. The result is a cloud of 2,000 points in $\mathbb{R}^6$. This cloud is the empirical preference distribution of District 7, and its geometry tells us everything the left-right axis cannot.*
+> *We begin with an illustrative survey. A simulated sample of 2,000 District 7 voters answers a battery of questions designed to locate each voter on the six primary dimensions. The result is a cloud of 2,000 points in $\mathbb{R}^6$. This cloud is the empirical preference distribution of District 7, and its geometry tells us everything the left-right axis cannot.*
 
 ---
 
@@ -112,9 +112,9 @@ The first eigenvalue explains only 35% of the variance — far less than the 93%
 
 ## The Manifold of District 7
 
-We now construct the preference manifold of District 7 from the survey data introduced at the chapter's opening.
+We now construct the preference manifold of District 7 from the simulated survey data introduced at the chapter's opening. The numbers that follow are illustrative.
 
-Our 2,000-voter sample has been asked to locate themselves on each of the six dimensions using a 7-point scale. Each voter is a point in $\mathbb{R}^6$. The resulting point cloud has the following structure:
+Our simulated 2,000-voter sample has been asked to locate themselves on each of the six dimensions using a 7-point scale. Each voter is a point in $\mathbb{R}^6$. The resulting point cloud has the following structure:
 
 **The urban core (Eastfield, Route 9 corridor).** These voters cluster in a region of the manifold characterized by $d_1$ progressive, $d_2$ mixed (Eastfield is socially moderate; the Route 9 corridor is socially progressive), $d_3$ moderately high, $d_4$ mixed, $d_5$ low (deep distrust of institutions), and $d_6$ high (strong identity salience). The urban core's centroid is approximately $(-1.5, -0.3, 0.8, 0.0, -1.2, 1.5)$ in standardized coordinates.
 

@@ -51,17 +51,17 @@ This leads to the chapter's central result: the Campaign Gradient Theorem, which
 
 $$\mathbf{e}^* = \arg\min_{\mathbf{e}, \|\mathbf{e}\|=1} \mathbb{E}_v\left[|\langle v - x_C, \mathbf{e} \rangle|^2\right]$$
 
-*This is equivalent to finding the eigenvector of the electorate's covariance matrix $\Sigma$ along which the candidate's position $x_C$ is closest to the mean $\mu$:*
+*This is equivalent to finding the axis along which the electorate's variance and the squared distance of the candidate's position $x_C$ from the mean $\mu$ are jointly smallest:*
 
-$$\mathbf{e}^* = \arg\max_{\mathbf{e}, \|\mathbf{e}\|=1} \frac{|\langle x_C - \mu, \mathbf{e} \rangle|^2}{\mathbf{e}^T \Sigma \mathbf{e}}$$
+$$\mathbf{e}^* = \arg\min_{\mathbf{e}, \|\mathbf{e}\|=1} \left[\mathbf{e}^T \Sigma \mathbf{e} + |\langle x_C - \mu, \mathbf{e} \rangle|^2\right]$$
 
 *subject to the constraint that $\mathbf{e}$ must correspond to a politically activatable dimension — the campaign can only make salient dimensions that voters recognize as politically relevant.*
 
 *Proof.* The expected squared projected distance is:
 
-$$\mathbb{E}[|\langle v - x_C, \mathbf{e} \rangle|^2] = \mathbf{e}^T \Sigma \mathbf{e} - 2\langle x_C - \mu, \mathbf{e} \rangle \mathbf{e}^T (\mu - x_C) + |\langle x_C - \mu, \mathbf{e} \rangle|^2$$
+$$\mathbb{E}[|\langle v - x_C, \mathbf{e} \rangle|^2] = \mathbf{e}^T \Sigma \mathbf{e} + |\langle x_C - \mu, \mathbf{e} \rangle|^2$$
 
-Minimizing over unit vectors $\mathbf{e}$ is a generalized eigenvalue problem. The optimal axis balances two objectives: minimizing the electorate's variance along $\mathbf{e}$ (choosing a dimension on which voters are clustered, so the candidate is close to many of them) and maximizing the candidate's alignment with the electorate's mean along $\mathbf{e}$ (choosing a dimension on which the candidate is close to the centroid). $\square$
+Minimizing over unit vectors $\mathbf{e}$ is an eigenvalue problem for the matrix $\Sigma + (x_C - \mu)(x_C - \mu)^T$. The optimal axis balances two objectives: minimizing the electorate's variance along $\mathbf{e}$ (choosing a dimension on which voters are clustered, so the candidate is close to many of them) and maximizing the candidate's alignment with the electorate's mean along $\mathbf{e}$ (choosing a dimension on which the candidate is close to the centroid). $\square$
 
 ### What the Theorem Predicts
 
@@ -73,7 +73,7 @@ The Campaign Gradient Theorem predicts that candidates will:
 
 3. **Seek low-variance dimensions.** Among dimensions on which the candidate has roughly equal positional advantage, the campaign will choose the dimension with the lowest voter variance — the dimension on which voters are most clustered. On a high-variance dimension, even a well-positioned candidate faces many voters who are far away on the projection. On a low-variance dimension, a well-positioned candidate faces a concentrated electorate that is uniformly close.
 
-These predictions are confirmed by every empirical study of campaign strategy. Campaigns emphasize their candidate's strengths, suppress their weaknesses, and target the dimensions that produce the most favorable projections. The Campaign Gradient Theorem is not a new prediction — it is a geometric explanation for a well-established empirical regularity.
+These predictions agree with the empirical literature on campaign strategy. Campaigns emphasize their candidate's strengths, suppress their weaknesses, and target the dimensions that produce the most favorable projections. The Campaign Gradient Theorem is not a new prediction — it is a geometric explanation for a well-established empirical regularity.
 
 ## Negative Campaigning as Heuristic Corruption
 

@@ -77,7 +77,7 @@ The political science literature has long recognized this multi-dimensionality. 
 
 What, precisely, does the one-dimensional projection destroy?
 
-The Scalar Irrecoverability Theorem, proved in *Geometric Reasoning* (Ch. 13) and instantiated for politics in Chapter 5 of this book, provides the answer. The theorem states that when a multi-dimensional object is contracted to a scalar, the lost information is irrecoverable — there exists no function that reconstructs the original from the contraction. The destruction is permanent and complete.
+The Scalar Irrecoverability Theorem, proved in *Geometric Reasoning* (Ch. 10) and instantiated for politics in Chapter 5 of this book, provides the answer. The theorem states that when a multi-dimensional object is contracted to a scalar, the lost information is irrecoverable — there exists no function that reconstructs the original from the contraction. The destruction is permanent and complete.
 
 For a voter on the six-dimensional political preference manifold, placement on the left-right axis destroys five of six dimensions of political identity. The voter who favors progressive economic policy ($d_1$ left), conservative social values ($d_2$ right), aggressive environmental regulation ($d_3$ high), non-interventionist foreign policy ($d_4$ isolationist), low institutional trust ($d_5$ low), and strong ethnic identity ($d_6$ high) has no home on the left-right spectrum.
 

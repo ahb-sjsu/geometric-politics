@@ -117,7 +117,7 @@ The scale limitation of deliberation — dozens of participants in a population 
 
 ## District 7: The Assembly's Recommendation
 
-After three days, District 7's citizens' assembly produces its transportation recommendation. The geometric analysis of the process:
+After three days, District 7's citizens' assembly produces its transportation recommendation. The geometric analysis of this hypothetical process, with illustrative numbers:
 
 **Pre-deliberation distribution:** The 42 participants' positions on the transportation-relevant submanifold (a 3D subspace: public transit investment, highway investment, and funding mechanism) are bimodal — two clusters corresponding roughly to the partisan divide. Mean inter-cluster distance: 3.4 Mahalanobis units.
 

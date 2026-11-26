@@ -40,6 +40,8 @@ The question has practical implications: the Democratic Irrecoverability Theorem
 
 ## Question 3: Is There a Conservation Law for Democratic Legitimacy?
 
+> **Note (2026-11-26).** *Geometric Ethics* withdrew "Conservation of Harm" as a conservation law in June 2026 and kept the weaker claim that harm accounting is invariant under re-description. The last paragraph of this section is restated accordingly. The question itself is unchanged and stays open.
+
 Chapter 17 raised the possibility that democratic legitimacy is a conserved quantity under gauge-invariant transformations, by analogy with Noether's theorem in physics. The analogy is suggestive: legitimacy seems to persist under fair procedures and degrade under unfair ones, just as energy persists under time-translation symmetry and degrades under time-asymmetric perturbations.
 
 But the analogy has gaps:
@@ -50,7 +52,7 @@ But the analogy has gaps:
 
 - **Is the analogy misleading?** Physical conservation laws are exact: energy is exactly conserved in a closed system. Political legitimacy, even if "conserved" in some sense, is likely conserved only approximately — with dissipation from practical deviations from gauge invariance (corruption, voter suppression, ballot design effects). An approximate conservation law is still useful, but it requires different mathematical machinery than an exact one.
 
-The question is genuinely open. The series has produced conservation-like results in ethics (conservation of harm under $U(1)_H$ symmetry) and economics (conservation of value under re-description), but these were possible because the domain Lagrangians were specified. The political Lagrangian remains to be constructed.
+The question is genuinely open. The series has produced conservation-like results in ethics (representation-invariance of harm accounting under $U(1)_H$ symmetry) and economics (conservation of value under re-description), but these were possible because the domain Lagrangians were specified. The political Lagrangian remains to be constructed.
 
 ## Question 4: Can Deliberation Scale?
 
@@ -102,7 +104,7 @@ Bridging this gap — between geometric sophistication and judicial administrabi
 
 This chapter closes the Politics volume of the Geometric Series. Twelve books in total. From the mathematical toolkit of *Geometric Methods* through the parent framework of *Geometric Reasoning*, through eight domain instantiations — ethics, economics, law, cognition, communication, medicine, education, aesthetics — and now politics.
 
-The series began with a simple observation: scalar reduction destroys geometric structure, and the destruction is irreversible. The observation has been tested across ten domains. In every domain, the same pattern holds: multi-dimensional realities are compressed to scalars, the compression is lossy, the loss is irrecoverable, and the consequences are predictable — and preventable, if the geometry is understood.
+The series began with a simple observation: scalar reduction destroys geometric structure, and the destruction is irreversible. The observation has been applied across ten domains. In every domain, the same pattern holds: multi-dimensional realities are compressed to scalars, the compression is lossy, the loss is irrecoverable, and the consequences are predictable — and preventable, if the geometry is understood.
 
 Politics is the final domain and, in many ways, the most important. The other domains affect individuals — a patient, a student, a moral agent, a litigant. Politics affects everyone. The dimensional collapse of democratic institutions is not a theoretical curiosity. It is a structural feature of the systems that govern billions of lives. The manifold is real. The contraction is severe. The information loss is massive. And the lost information is precisely the information that a democracy needs to represent its citizens faithfully.
 

@@ -43,7 +43,7 @@ The consequence: voters who consume different media experience different effecti
 
 ### Mode 2: Distance Inflation
 
-Affective media coverage inflates the perceived distance between political positions. The framing effect documented in *Geometric Communication*'s 8.9$\sigma$ result applies directly: the same moral scenario, described in euphemistic versus dramatic language, produces judgment displacements of 8.9 standard deviations. Political framing — which is systematic, targeted, and repeated — produces cumulative metric distortion that dwarfs any single framing effect.
+Affective media coverage inflates the perceived distance between political positions. The framing effect documented in *Geometric Communication*'s 8.9$\sigma$ result applies directly: the same moral scenario, described in euphemistic versus dramatic language, produces judgment displacements significant at 8.9$\sigma$ when combined across five models. Political framing — which is systematic, targeted, and repeated — produces cumulative metric distortion that dwarfs any single framing effect.
 
 The mechanism is straightforward. A policy position — say, "expand the Affordable Care Act to cover dental and vision" — has a specific location on the manifold. But the position can be described in multiple ways:
 
@@ -83,15 +83,15 @@ The question becomes particularly urgent in the age of algorithmic curation. Whe
 
 ## The 8.9σ Connection
 
-The 8.9$\sigma$ framing displacement result from *Geometric Communication* (Ch. 14) is directly applicable to political media. In the original experiment, euphemistic versus dramatic reframing of the same moral scenario displaced moral judgment by 8.9 standard deviations — the largest framing effect ever measured in the moral reasoning literature. The effect was not due to changed information (the facts were identical) but to changed framing (the presentation differed).
+The 8.9$\sigma$ framing displacement result from *Geometric Communication* (Ch. 14) is directly applicable to political media. In the original experiment, euphemistic versus dramatic reframing of the same moral scenario displaced harm judgments by 15-25% of the scale range — a displacement significant at 8.9$\sigma$ when combined across five models and two framing types. The effect was not due to changed information (the facts were identical) but to changed framing (the presentation differed).
 
-Political media framing is systematic, targeted, and repeated. If a single framing manipulation produces an 8.9$\sigma$ displacement in moral judgment, then the cumulative effect of years of partisan framing — applied to every issue, every candidate, every event — produces metric distortion that is not merely significant but overwhelming. The voter's heuristic map of the political manifold is not slightly distorted. It is comprehensively warped, with the warp structure determined by which media the voter consumes.
+Political media framing is systematic, targeted, and repeated. If a single framing manipulation produces a displacement in moral judgment that is significant at 8.9$\sigma$, then the cumulative effect of years of partisan framing — applied to every issue, every candidate, every event — produces metric distortion that is not merely significant but overwhelming. The voter's heuristic map of the political manifold is not slightly distorted. It is comprehensively warped, with the warp structure determined by which media the voter consumes.
 
 The geometric framework makes this precise. Let $d_{\text{true}}(v, p)$ be the true manifold distance between voter $v$ and policy position $p$, and let $d_{\text{framed}}(v, p)$ be the perceived distance after media framing. The framing displacement factor $\delta$ is:
 
 $$\delta = \frac{d_{\text{framed}} - d_{\text{true}}}{d_{\text{true}}}$$
 
-For the 8.9$\sigma$ result, $\delta \approx 8.9$ on a single exposure. For cumulative media exposure, $\delta$ compounds. The political media is not an information channel with noise. It is a heuristic field with structure, and the structure is corrupt.
+The 8.9$\sigma$ figure is a significance level, not a value of $\delta$; the displacement behind it was 15-25% of the scale range on a single exposure. For cumulative media exposure, $\delta$ compounds. The political media is not an information channel with noise. It is a heuristic field with structure, and the structure is corrupt.
 
 ## District 7: Two Maps of the Same District
 

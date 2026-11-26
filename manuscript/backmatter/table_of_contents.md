@@ -61,7 +61,7 @@
 
 **Chapter 16: AI in Politics** — AI as campaign tool (microtargeting as personalized projection), as information medium (algorithmic axis rotation), and as governance participant (manifold-aware budgeting). The No Escape Theorem for political AI. Deepfakes and epistemic destruction.
 
-**Chapter 17: What Politics Teaches the General Theory** — The discrete-continuous tension is maximized in politics. The $D_4$ of political symmetry. Collective choice as a new geometric regime. Legitimacy as a conserved quantity?
+**Chapter 17: What Politics Teaches the General Theory** — The discrete-continuous tension is maximized in politics. The Hohfeldian symmetry of political relations ($V_4$). Collective choice as a new geometric regime. Legitimacy as a conserved quantity? The feedback between institutions and manifold.
 
 **Chapter 18: Open Questions** — Manifold measurement from survey data. Correct dimensionality. Conservation law for legitimacy. Scaling deliberation. International political geometry. Manifold evolution. Legal adoption of the Bond Index.
 

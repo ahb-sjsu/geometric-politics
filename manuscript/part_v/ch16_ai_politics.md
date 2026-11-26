@@ -44,7 +44,9 @@ But the "in principle" carries enormous caveats.
 
 ## The No Escape Theorem for Political AI
 
-The No Escape Theorem from *Geometric Ethics* (Ch. 19) states that an AI system operating within the geometric framework cannot escape the manifold's structure. The theorem was originally proved for the moral manifold: an AI constrained by the $D_4 \times U(1)_H$ symmetry of the moral manifold cannot optimize in a direction that violates the symmetry, regardless of how sophisticated its optimization becomes.
+> **Note (2026-11-26).** *Geometric Ethics* withdrew the dihedral group $D_4$ as the Hohfeldian symmetry group in its version 1.25 (November 2026) and now posits $V_4 \times U(1)_H$, with the Klein four-group $V_4$ in place of $D_4$ and without a uniqueness claim. The sentence below is restated with $V_4$. Nothing in this section depends on a quarter-turn or on a group of order eight, so the political reading stands as written. The No Escape Theorem itself is Theorem 18.1 of *Geometric Ethics*, stated there for a structurally contained agent under four requirements.
+
+The No Escape Theorem from *Geometric Ethics* (Ch. 18) states that an AI system operating within the geometric framework cannot escape the manifold's structure. The theorem was originally stated for the moral manifold: an AI constrained by the $V_4 \times U(1)_H$ symmetry of the moral manifold cannot optimize in a direction that violates the symmetry, regardless of how sophisticated its optimization becomes.
 
 The political instantiation: a political AI constrained by the democratic gauge group $G_D$ (voter anonymity, option neutrality, re-description invariance) cannot produce outcomes that violate these symmetries. It cannot favor specific voters (violating anonymity), cannot advantage specific candidates by label (violating neutrality), and cannot produce outcomes that depend on how preferences are described (violating re-description invariance).
 
@@ -88,7 +90,7 @@ The geometric framework provides the diagnostic: measure the Political Bond Inde
 
 ## District 7: The AI Pilot
 
-District 7's AI-assisted participatory budgeting system, after correction for the sampling bias, operates for a full budget cycle. The results:
+District 7's AI-assisted participatory budgeting system, after correction for the sampling bias, operates for a full budget cycle. The results of this hypothetical pilot, with illustrative numbers:
 
 **Process:** 15,000 residents (7.5% of the district) participate through an online platform. Each participant answers a 12-question instrument that locates them on the six-dimensional preference manifold, then allocates a virtual budget across 8 spending categories. The AI system computes the Frechet mean of the participating voters' preferences on the manifold and identifies the budget allocation closest to this mean on the budget hyperplane.
 

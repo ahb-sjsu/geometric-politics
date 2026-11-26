@@ -6,7 +6,7 @@
 
 > **RUNNING EXAMPLE — DISTRICT 7**
 >
-> *District 7's city council adopts ranked-choice voting for its next election. Under the old plurality system, Candidate A — a firebrand progressive with passionate support in the urban core but little appeal elsewhere — would have won with 28% of the first-choice vote in a five-candidate field. Under RCV, something different happens.*
+> *District 7's city council adopts ranked-choice voting for its next election. Under the old plurality system, Candidate B — the conservative — would have won with 31% of the first-choice vote in a five-candidate field, ahead of Candidate A — a firebrand progressive with passionate support in the urban core but little appeal elsewhere — at 28%. Under RCV, something different happens.*
 >
 > *In the first round, Candidate E (libertarian, 9%) is eliminated. E's voters' second choices go to Candidate C (moderate, 5%) and Candidate D (green populist, 3%), with 1% to A. In the second round, Candidate D (now 17%) is eliminated. D's voters go to A (8%), C (6%), and B (3%). In the third round, Candidate B (conservative, 34%) and Candidate C (moderate, 29%) face off against Candidate A (37%). C is eliminated. C's voters — the moderate suburban bloc — split: 60% go to A, 40% to B.*
 >
@@ -123,9 +123,9 @@ Maine adopted RCV for federal elections in 2018. The most notable effect was the
 
 ## District 7: The First RCV Election
 
-District 7 holds its first RCV election for city council. Five candidates compete.
+District 7 holds its first RCV election for city council. Five candidates compete. The vote shares are illustrative.
 
-Under plurality, Candidate A (strong first-choice support from the urban core, 28%) would have won in a fragmented field. Under RCV:
+Under plurality, Candidate B (31% of first choices) would have won in a fragmented field, ahead of Candidate A (strong first-choice support from the urban core, 28%). Under RCV:
 
 - Round 1: E (9%) eliminated. Transfers: C gets 5%, D gets 3%, A gets 1%.
 - Round 2: D (17%) eliminated. Transfers: A gets 8%, C gets 6%, B gets 3%.
@@ -149,6 +149,6 @@ The result surprises the pundits, who expected the race to be "A versus B." The 
 >
 > *We have proved the RCV Recovery Theorem: ranked-choice voting recovers strictly more manifold information than plurality voting, preserving ordinal information along $\min(d, k-1)$ independent axes compared to plurality's single axis. RCV prevents three specific pathologies of plurality — spoiler effects, center squeeze, and strategic voting — by recovering the second-choice and lower-choice information that plurality discards.*
 >
-> *In District 7's first RCV election, the system recovered manifold structure that plurality would have destroyed: the moderate candidate, closest to the manifold center of mass, was able to accumulate cross-district second-choice support and win — a result impossible under plurality, where only first-choice intensity counts.*
+> *In District 7's first RCV election, the system recovered manifold structure that plurality would have destroyed: in the variation where the moderate candidate sits slightly closer to the manifold center of mass, that candidate was able to accumulate cross-district second-choice support and win — a result impossible under plurality, where only first-choice intensity counts.*
 >
 > *Chapter 14 extends the analysis to deliberative democracy: citizens' assemblies and deliberative polls as institutional mechanisms for exploring the manifold directly, rather than contracting it through voting.*
