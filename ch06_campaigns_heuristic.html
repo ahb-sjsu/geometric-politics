@@ -75,12 +75,12 @@
 <p>This leads to the chapter&rsquo;s central result: the Campaign Gradient Theorem, which characterizes the optimal campaign strategy in geometric terms.</p>
 <p><strong>Theorem 2 (Campaign Gradient Theorem).</strong> <em>A successful campaign finds the projection axis $\mathbf{e}^*$ along which the candidate&rsquo;s position minimizes the mean projected distance to the electorate:</em></p>
 <p>$$\mathbf{e}^* = \arg\min_{\mathbf{e}, \|\mathbf{e}\|=1} \mathbb{E}_v\left[|\langle v - x_C, \mathbf{e} \rangle|^2\right]$$</p>
-<p><em>This is equivalent to finding the eigenvector of the electorate&rsquo;s covariance matrix $\Sigma$ along which the candidate&rsquo;s position $x_C$ is closest to the mean $\mu$:</em></p>
-<p>$$\mathbf{e}^* = \arg\max_{\mathbf{e}, \|\mathbf{e}\|=1} \frac{|\langle x_C - \mu, \mathbf{e} \rangle|^2}{\mathbf{e}^T \Sigma \mathbf{e}}$$</p>
+<p><em>This is equivalent to finding the axis along which the electorate&rsquo;s variance and the squared distance of the candidate&rsquo;s position $x_C$ from the mean $\mu$ are jointly smallest:</em></p>
+<p>$$\mathbf{e}^* = \arg\min_{\mathbf{e}, \|\mathbf{e}\|=1} \left[\mathbf{e}^T \Sigma \mathbf{e} + |\langle x_C - \mu, \mathbf{e} \rangle|^2\right]$$</p>
 <p><em>subject to the constraint that $\mathbf{e}$ must correspond to a politically activatable dimension — the campaign can only make salient dimensions that voters recognize as politically relevant.</em></p>
 <p><em>Proof.</em> The expected squared projected distance is:</p>
-<p>$$\mathbb{E}[|\langle v - x_C, \mathbf{e} \rangle|^2] = \mathbf{e}^T \Sigma \mathbf{e} - 2\langle x_C - \mu, \mathbf{e} \rangle \mathbf{e}^T (\mu - x_C) + |\langle x_C - \mu, \mathbf{e} \rangle|^2$$</p>
-<p>Minimizing over unit vectors $\mathbf{e}$ is a generalized eigenvalue problem. The optimal axis balances two objectives: minimizing the electorate&rsquo;s variance along $\mathbf{e}$ (choosing a dimension on which voters are clustered, so the candidate is close to many of them) and maximizing the candidate&rsquo;s alignment with the electorate&rsquo;s mean along $\mathbf{e}$ (choosing a dimension on which the candidate is close to the centroid). $\square$</p>
+<p>$$\mathbb{E}[|\langle v - x_C, \mathbf{e} \rangle|^2] = \mathbf{e}^T \Sigma \mathbf{e} + |\langle x_C - \mu, \mathbf{e} \rangle|^2$$</p>
+<p>Minimizing over unit vectors $\mathbf{e}$ is an eigenvalue problem for the matrix $\Sigma + (x_C - \mu)(x_C - \mu)^T$. The optimal axis balances two objectives: minimizing the electorate&rsquo;s variance along $\mathbf{e}$ (choosing a dimension on which voters are clustered, so the candidate is close to many of them) and maximizing the candidate&rsquo;s alignment with the electorate&rsquo;s mean along $\mathbf{e}$ (choosing a dimension on which the candidate is close to the centroid). $\square$</p>
 <h3 id="what-the-theorem-predicts">What the Theorem Predicts</h3>
 <p>The Campaign Gradient Theorem predicts that candidates will:</p>
 <ol>
@@ -94,7 +94,7 @@
 <p><strong>Seek low-variance dimensions.</strong> Among dimensions on which the candidate has roughly equal positional advantage, the campaign will choose the dimension with the lowest voter variance — the dimension on which voters are most clustered. On a high-variance dimension, even a well-positioned candidate faces many voters who are far away on the projection. On a low-variance dimension, a well-positioned candidate faces a concentrated electorate that is uniformly close.</p>
 </li>
 </ol>
-<p>These predictions are confirmed by every empirical study of campaign strategy. Campaigns emphasize their candidate&rsquo;s strengths, suppress their weaknesses, and target the dimensions that produce the most favorable projections. The Campaign Gradient Theorem is not a new prediction — it is a geometric explanation for a well-established empirical regularity.</p>
+<p>These predictions agree with the empirical literature on campaign strategy. Campaigns emphasize their candidate&rsquo;s strengths, suppress their weaknesses, and target the dimensions that produce the most favorable projections. The Campaign Gradient Theorem is not a new prediction — it is a geometric explanation for a well-established empirical regularity.</p>
 <h2 id="negative-campaigning-as-heuristic-corruption">Negative Campaigning as Heuristic Corruption</h2>
 <p>If a candidate&rsquo;s own campaign is a heuristic field that guides voters toward favorable projections, a negative campaign is a corrupted heuristic field directed at the opposing candidate.</p>
 <p>In the parent framework (<em>Geometric Reasoning</em>, Ch. 5), heuristic corruption occurs when the guidance field ceases to accurately represent the structure of the search space. A corrupted heuristic provides misleading distance estimates, steering the searcher away from optimal paths and toward suboptimal ones.</p>
