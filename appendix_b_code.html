@@ -306,23 +306,21 @@ class RankedChoiceVoting(VotingSystem):
     &quot;&quot;&quot;
     Find the optimal projection axis for a campaign.
 
-    Implements the Campaign Gradient Theorem:
-    e* = argmax_e |&lt;x_C - mu, e&gt;|^2 / (e^T Sigma e)
+    Implements the Campaign Gradient Theorem (Theorem 2, Chapter 6):
+    e* = argmin_e  e^T Sigma e + &lt;x_C - mu, e&gt;^2,  ||e|| = 1
 
     Returns the optimal projection axis (unit vector).
     &quot;&quot;&quot;
     diff = candidate_position - manifold.mean
 
-    # Solve generalized eigenvalue problem
-    # Maximize (diff^T e)^2 / (e^T Sigma e)
-    # This is equivalent to finding the eigenvector of
-    # Sigma^{-1} (diff diff^T) with largest eigenvalue
+    # The objective is e^T M e with M = Sigma + diff diff^T, a symmetric
+    # matrix, so the minimizer over unit vectors is the eigenvector of M
+    # with the smallest eigenvalue (eigh returns them in ascending order).
 
-    M = manifold.cov_inv @ np.outer(diff, diff)
-    eigenvalues, eigenvectors = np.linalg.eig(M)
-    idx = np.argmax(np.real(eigenvalues))
+    M = manifold.cov + np.outer(diff, diff)
+    eigenvalues, eigenvectors = np.linalg.eigh(M)
 
-    optimal_axis = np.real(eigenvectors[:, idx])
+    optimal_axis = eigenvectors[:, 0]
     return optimal_axis / np.linalg.norm(optimal_axis)
 </code></pre>
 <h2 id="b6-usage-example-district-7">B.6 Usage Example: District 7</h2>
