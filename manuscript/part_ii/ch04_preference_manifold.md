@@ -99,7 +99,7 @@ In the 2020s American electorate, the covariance matrix has the following approx
 
 The eigenvalues of $\Sigma$ encode the effective dimensionality of the electorate. If one eigenvalue dominates (explaining, say, 90% of the variance), the electorate is effectively one-dimensional — the left-right axis is a good approximation. If the eigenvalues are more evenly distributed, the electorate is effectively multi-dimensional, and the left-right axis is a poor approximation.
 
-For the 2020s American electorate, the eigenvalue distribution of $\Sigma$ is approximately:
+For the 2020s American electorate, the eigenvalue distribution of $\Sigma$ is, on an estimate for which this volume gives no computation or source, approximately:
 
 - $\lambda_1 \approx 0.35$ (the left-right axis: $d_1$-$d_2$ correlation)
 - $\lambda_2 \approx 0.25$ (the populist axis: $d_5$-$d_6$ correlation)
@@ -108,7 +108,7 @@ For the 2020s American electorate, the eigenvalue distribution of $\Sigma$ is ap
 - $\lambda_5 \approx 0.08$ (residual: independent variation on $d_5$ not captured by $d_6$)
 - $\lambda_6 \approx 0.05$ (residual: independent variation on $d_6$ not captured by $d_5$)
 
-The first eigenvalue explains only 35% of the variance — far less than the 93% that DW-NOMINATE finds in roll-call votes. The discrepancy confirms the diagnosis: the 93% figure reflects the 1D structure of the voting system, not the 1D structure of voter preferences. When preferences are measured directly, the manifold is genuinely multi-dimensional.
+On this estimate the first eigenvalue explains only 35% of the variance — far less than the 93% that DW-NOMINATE finds in roll-call votes. If the estimate holds, the discrepancy supports the diagnosis: the 93% figure reflects the 1D structure of the voting system, not the 1D structure of voter preferences. When preferences are measured directly, the manifold is genuinely multi-dimensional.
 
 ## The Manifold of District 7
 

@@ -101,7 +101,7 @@ The bimodality test is computationally straightforward: apply a clustering algor
 In District 7, the illustrative result of the bimodality test under each proposed map:
 
 - **Map A (bipartisan):** Optimal clusters = 1 (with some elongation along the $d_5$-$d_6$ axis). The district is a single community of interest on the manifold.
-- **Map B (partisan):** Optimal clusters = 2. The Route 9 corridor voters ($d_1$ progressive, $d_5$ moderate) and the exurban voters ($d_1$ conservative, $d_5$ very low) form two separated clusters, forced into the same district by the gerrymandered geography. The district is not a community of interest — it is two communities sutured together by a geographic incision.
+- **Map B (partisan):** Optimal clusters = 2. The Route 9 corridor voters ($d_1$ progressive, $d_5$ moderately low) and the exurban voters ($d_1$ conservative, $d_5$ very low) form two separated clusters, forced into the same district by the gerrymandered geography. The district is not a community of interest — it is two communities sutured together by a geographic incision.
 - **Map C (algorithmic):** Optimal clusters = 1 (but with high variance on $d_5$-$d_6$). The district is approximately a single community, though the trust-identity dimension shows more spread than under Map A.
 
 ## District 7: Three Maps

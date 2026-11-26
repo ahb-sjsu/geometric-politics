@@ -63,7 +63,7 @@ The activation is a direct consequence of the information provision and the dial
 
 Contact with out-group members in a structured setting reduces the perceived manifold distance to the out-group. The metric distortion (inflated inter-group distance) partially corrects when participants observe that out-group members' actual manifold positions are closer than the corrupted heuristic suggested.
 
-The magnitude of the reduction is substantial: Fishkin's data shows that post-deliberation participants rate the out-group 10-20 points higher on 100-point thermometer scales, and the improvement persists for months after the deliberation. The correction is not ideological — participants do not become more liberal or conservative. They become more accurate: their heuristic maps of the political manifold better approximate the true manifold structure.
+The magnitude of the reduction is substantial: Fishkin's data is reported to show that post-deliberation participants rate the out-group roughly 10-20 points higher on 100-point thermometer scales, and that the improvement persists for months after the deliberation (figures attributed to his deliberative polls and not checked here against a specific source). The correction is not ideological — participants do not become more liberal or conservative. They become more accurate: their heuristic maps of the political manifold better approximate the true manifold structure.
 
 ## Participatory Budgeting as Constrained Manifold Optimization
 
@@ -81,19 +81,19 @@ Under traditional budgeting, the allocation is determined by elected officials w
 
 ### Ireland's Citizens' Assemblies (2016-2020)
 
-Ireland convened two major citizens' assemblies in the late 2010s, producing recommendations on marriage equality and abortion that led to constitutional amendments approved by large referendum majorities. These assemblies are the most dramatic demonstrations of deliberative democracy's manifold-exploration capacity.
+Ireland convened randomly selected citizens' bodies in the 2010s, whose recommendations on marriage equality and abortion led to constitutional amendments approved by large referendum majorities. These assemblies are the most dramatic demonstrations of deliberative democracy's manifold-exploration capacity.
 
 The Irish case is geometrically instructive because Ireland's abortion debate was organized around a sacred-value boundary — the Eighth Amendment to the Irish Constitution, which had created a curvature singularity on the social values dimension ($d_2$). Positions on opposite sides of the Eighth Amendment were perceived as infinitely distant: pro-life and pro-choice Irish citizens viewed each other across a chasm that no political compromise could bridge.
 
 The Citizens' Assembly bridged it — not by finding a "compromise" on the sacred-value dimension (sacred values do not admit compromise) but by activating additional dimensions. Assembly members heard medical testimony (activating the health dimension, related to $d_3$ and $d_1$), personal testimony from women affected by the Eighth Amendment (activating the liberty dimension, $d_2$ from a different angle), and comparative legal analysis (activating the institutional-design dimension, $d_5$). The deliberation did not soften participants' sacred values. It revealed that the policy question was multi-dimensional — it involved not just "is abortion right or wrong?" ($d_2$) but "how should the state handle medical decisions?" ($d_1$/$d_5$) and "what are the consequences of the current law for real people?" (activating empathy across the $d_2$ boundary).
 
-The assembly's recommendation — to repeal the Eighth Amendment and replace it with legislation — was approved by 66% of voters in a national referendum. The recommendation was not a 1D compromise between pro-life and pro-choice positions. It was a multi-dimensional resolution that occupied a region of the manifold accessible only through the kind of dimensional activation that deliberation provides.
+The assembly's recommendation — to repeal the Eighth Amendment and replace it with legislation — was approved by roughly two-thirds of voters in a national referendum. The recommendation was not a 1D compromise between pro-life and pro-choice positions. It was a multi-dimensional resolution that occupied a region of the manifold accessible only through the kind of dimensional activation that deliberation provides.
 
 ### British Columbia Citizens' Assembly on Electoral Reform (2004)
 
-The BC Citizens' Assembly — 160 randomly selected citizens who spent a year studying electoral systems — recommended switching from plurality voting to a single transferable vote (STV) system. The recommendation demonstrated deliberation's capacity for dimensional recovery: assembly members who entered the process with no opinion on electoral systems exited with a nuanced, multi-dimensional preference for a system that preserved more manifold structure.
+The BC Citizens' Assembly — about 160 randomly selected citizens who spent a year studying electoral systems — recommended switching from plurality voting to a single transferable vote (STV) system. The recommendation demonstrated deliberation's capacity for dimensional recovery: assembly members who entered the process with no opinion on electoral systems exited with a nuanced, multi-dimensional preference for a system that preserved more manifold structure.
 
-The assembly's recommendation was put to a referendum and received 58% support — just short of the 60% threshold required for adoption. The near-miss illustrates the challenge of translating manifold-level understanding (achieved through deliberation) into scalar-level approval (required by referendum): voters who had not participated in the deliberation were being asked to approve a system whose geometric advantages they had not experienced.
+The assembly's recommendation was put to a referendum and received roughly 58% support — just short of the 60% threshold required for adoption. The near-miss illustrates the challenge of translating manifold-level understanding (achieved through deliberation) into scalar-level approval (required by referendum): voters who had not participated in the deliberation were being asked to approve a system whose geometric advantages they had not experienced.
 
 ## The Cost of Deliberation
 

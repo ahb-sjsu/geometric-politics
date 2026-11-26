@@ -106,7 +106,7 @@ When a multi-dimensional preference distribution is aggregated by majority rule,
 
 The chaos is not a failure of voters' rationality. It is a failure of the aggregation mechanism. Each voter has a consistent position on the manifold — a single point in six-dimensional space. The inconsistency arises when the multi-dimensional positions are aggregated dimension by dimension through binary majority votes. The aggregation creates a "social preference" that cycles, even though no individual preference cycles.
 
-Geometrically, the chaos is a consequence of the non-transitivity of majority rule on multi-dimensional manifolds. On a 1D manifold, majority rule is transitive and the median voter's position is a stable equilibrium (the Condorcet winner). On a manifold with $d \geq 2$, majority rule generically has no stable equilibrium — the median on one dimension is different from the median on another, and the intersection of dimension-specific medians is generically empty.
+Geometrically, the chaos is a consequence of the non-transitivity of majority rule on multi-dimensional manifolds. On a 1D manifold, majority rule is transitive and the median voter's position is a stable equilibrium (the Condorcet winner). On a manifold with $d \geq 2$, majority rule generically has no stable equilibrium — the median on one dimension is different from the median on another, and a point that is a median in every direction generically does not exist: the medians along the coordinate axes always define a point, but the median hyperplanes in other directions generically do not pass through it.
 
 The resolution, again, is dimensional: expand the output space. Instead of asking "which point on the manifold does the majority prefer?" (a question that may have no answer), ask "what region of the manifold is Pareto-undominated?" (a question that always has an answer, and the answer is the Pareto frontier — a subset of the manifold, not a single point).
 
@@ -159,7 +159,7 @@ The illustrative manifold distances between each bloc's centroid and each candid
 | Suburbs | 2.8 | 0.3 | 2.5 |
 | Exurban | 5.1 | 2.2 | 1.4 |
 
-On the full manifold, Candidate B is the nearest candidate to the inner suburbs (distance 0.3) and the second-nearest to both other blocs. The mean manifold distance across the electorate: A = 3.0, B = 1.7, C = 2.9. Candidate B has the lowest mean manifold distance — it is the manifold Condorcet winner, even though the ordinal cycle says no Condorcet winner exists.
+On the full manifold, Candidate B is the nearest candidate to the inner suburbs (distance 0.3) and the second-nearest to both other blocs. The mean manifold distance across the electorate: A = 3.0, B = 1.7, C = 2.9. Candidate B has the lowest mean manifold distance — it is the manifold Condorcet winner in this chapter's sense (the lowest mean manifold distance, which is not a pairwise-majority criterion), even though the ordinal cycle says no Condorcet winner exists.
 
 The cycle arises because the ordinal ranking discards manifold distance information. The university enclave ranks $A > B > C$ because $A$ is closest on the projection axis that the ranking captures. But the ranking does not record that $B$ is a close second — manifold distance 2.5 versus 1.2, a ratio of 2.1. The exurban belt ranks $C > A > B$ because $C$ is closest on the ranking's projection axis, but $B$ is manifold-close at 2.2 versus $C$'s 1.4, a ratio of 1.6. The ordinal ranking, by discarding these distance ratios, creates a cycle that the cardinal manifold structure does not support.
 

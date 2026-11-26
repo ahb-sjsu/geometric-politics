@@ -2,6 +2,8 @@
 
 ## Book Plan — Andrew H. Bond
 
+> **Note (2026-11-26).** This plan predates the correction in *Geometric Ethics* v1.25: the four Hohfeldian positions form the Klein four-group V4, not the dihedral group D4. Read every "D4" below as V4, as the manuscript's Chapter 17 (Lesson 2) now does; the eight-element group and its quarter-turn are withdrawn. The plan itself is kept as written.
+
 **Target**: ~100,000–120,000 words (18 chapters + appendices)
 **Empirical basis**: ANES multi-dimensional preference data, congressional roll-call voting (DW-NOMINATE), redistricting litigation datasets, ranked-choice voting outcomes (Alaska 2022, NYC 2021, Maine 2018+), Deliberative Polling preference shift data (Fishkin et al.), framing effect results from Geometric Communication (8.9sigma), cross-national electoral system comparisons (Lijphart), media ecosystem polarization data
 **Existing material**: SERIES_OUTLINES.md (series template), Geometric Reasoning (parent theory), Geometric Ethics (D4 symmetry, BIP, moral manifold), Geometric Communication (framing effects, gauge invariance of meaning), Geometric Economics (decision manifolds, equilibria)

@@ -61,7 +61,7 @@ $$\mathbf{e}^* = \arg\min_{\mathbf{e}, \|\mathbf{e}\|=1} \left[\mathbf{e}^T \Sig
 
 $$\mathbb{E}[|\langle v - x_C, \mathbf{e} \rangle|^2] = \mathbf{e}^T \Sigma \mathbf{e} + |\langle x_C - \mu, \mathbf{e} \rangle|^2$$
 
-Minimizing over unit vectors $\mathbf{e}$ is an eigenvalue problem for the matrix $\Sigma + (x_C - \mu)(x_C - \mu)^T$. The optimal axis balances two objectives: minimizing the electorate's variance along $\mathbf{e}$ (choosing a dimension on which voters are clustered, so the candidate is close to many of them) and maximizing the candidate's alignment with the electorate's mean along $\mathbf{e}$ (choosing a dimension on which the candidate is close to the centroid). $\square$
+Minimizing over unit vectors $\mathbf{e}$ is an eigenvalue problem for the matrix $\Sigma + (x_C - \mu)(x_C - \mu)^T$. The optimal axis balances two objectives: minimizing the electorate's variance along $\mathbf{e}$ (choosing a dimension on which voters are clustered, so the candidate is close to many of them) and minimizing the candidate's squared offset from the electorate's mean along $\mathbf{e}$ (choosing a dimension on which the candidate is close to the centroid). $\square$
 
 ![Figure 6.1](figures/ch06_fig1.svg)
 
@@ -123,7 +123,7 @@ $$I_{\text{debate}} = \text{Vol}\left(\text{span}\{\mathbf{q}_1, \ldots, \mathbf
 
 where $\mathbf{q}_i$ are the directions in manifold space activated by each debate question and $k$ is the number of questions. If the questions span a large volume of the manifold (covering many independent dimensions), the debate is informative. If the questions are collinear (all on the same dimension), the volume is zero and the debate provides no more information than a single question.
 
-Modern presidential debates in the United States tend to be low-information by this measure: most questions address $d_1$ and $d_2$, with occasional excursions into $d_4$ (foreign policy). Dimensions $d_3$ (environment), $d_5$ (trust), and $d_6$ (identity) are rarely addressed directly, though they may be addressed implicitly in the candidates' rhetoric. The information value of a typical 90-minute debate is, by the manifold measure, perhaps 40% of what it could be if all dimensions were sampled equally.
+Modern presidential debates in the United States tend to be low-information by this measure: most questions address $d_1$ and $d_2$, with occasional excursions into $d_4$ (foreign policy). Dimensions $d_3$ (environment), $d_5$ (trust), and $d_6$ (identity) are rarely addressed directly, though they may be addressed implicitly in the candidates' rhetoric. The information value of a typical 90-minute debate is, on a rough guess rather than a computation with the manifold measure, perhaps 40% of what it could be if all dimensions were sampled equally.
 
 ## District 7: The Campaign Battle
 

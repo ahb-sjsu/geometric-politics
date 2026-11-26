@@ -80,7 +80,7 @@ The dimension-specific analysis reveals that District 7's voters are well-repres
 
 ### Electoral System Comparison
 
-The Political Bond Index enables principled comparison across electoral systems applied to the same electorate. The values below are illustrative:
+The Political Bond Index enables principled comparison across electoral systems applied to the same electorate. The values below are illustrative, for District 7 under Map B, the map on which plurality gives the 2.8 of "Gerrymandering Detection" (on Map A plurality gives 1.2 and ranked choice 0.9, as in "District 7: The Numbers"):
 
 | Electoral System | $BI(S, E)$ | Information Preserved |
 |---|---|---|
@@ -145,7 +145,7 @@ We give illustrative values of the Political Bond Index for District 7 under thr
 
 **Scenario 3: Reformed system (RCV, Map A).** $BI = 0.9$. The combination of ranked-choice voting (which recovers manifold information) and a fair district map (which preserves communities of interest) reduces the representational gap by 25% relative to Scenario 1 and 68% relative to Scenario 2.
 
-The numbers make the abstract framework concrete. A $BI$ of 2.8 means that the average voter in District 7 under the gerrymandered map is 2.8 Mahalanobis units farther from their representative than they would be under optimal assignment — a gap that corresponds to disagreement on multiple dimensions, manifesting as the feeling that "my representative doesn't represent me." A $BI$ of 0.9 under the reformed system means that the representational gap has been reduced to less than one unit — still nonzero (the Democratic Irrecoverability Theorem guarantees nonzero $BI$ for any contraction), but small enough that most voters feel their representative is "close enough" on the manifold.
+The numbers make the abstract framework concrete. A $BI$ of 2.8 means that the average voter in District 7 under the gerrymandered map is 2.8 Mahalanobis units farther from their representative than they would be under optimal assignment — a gap that corresponds to disagreement on multiple dimensions, manifesting as the feeling that "my representative doesn't represent me." A $BI$ of 0.9 under the reformed system means that the representational gap has been reduced to less than one unit — still nonzero (the Democratic Irrecoverability Theorem guarantees that any contraction loses manifold information; it bounds that loss and says nothing directly about $BI$, which is expected, not proved, to stay above zero), but small enough that most voters feel their representative is "close enough" on the manifold.
 
 ---
 

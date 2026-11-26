@@ -122,7 +122,7 @@ Affective polarization is not uniform across the manifold. It is concentrated on
 
 The Polarization Illusion Theorem provides the theoretical framework. The empirical test requires dimension-by-dimension analysis of voter preferences over time — examining whether the observed 1D polarization corresponds to genuine manifold-level separation or to sorting-induced projection artifacts.
 
-The American National Election Studies provide the longest continuous time series of multi-dimensional political preference data, spanning from 1948 to the present. While the specific items have changed over the decades, sufficient overlap exists to track the six dimensions approximately:
+The American National Election Studies provide the longest continuous time series of multi-dimensional political preference data, spanning from 1948 to the present. While the specific items have changed over the decades, sufficient overlap exists to track the six dimensions approximately. The readings below are approximate, and this volume gives no computation or citation for them; they are a summary of the ANES series to be checked against it:
 
 **$d_1$ (Economic policy), 1972-2024:** The standard government services/spending scale shows a modest increase in bimodality. The gap between the party means on this scale has grown from approximately 0.8 standard deviations in 1972 to approximately 1.4 standard deviations in 2024. This is genuine policy polarization on the economic dimension — but it is moderate, not extreme. The distributions still overlap substantially: the interquartile ranges of the two parties' economic positions intersect.
 

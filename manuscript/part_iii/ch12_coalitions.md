@@ -74,6 +74,8 @@ $$F(C) = \frac{d - \dim(A_C)}{d} \cdot \max_{d_i \notin A_C} \frac{\sigma_i^2(C)
 
 *A coalition with $F(C) > 1$ is geometrically fragile: it contains more disagreement energy on its worst dimension than its agreement structure can contain.*
 
+The two conditions are nested. $F(C) > 1$ requires $\sigma_i^2(C) > \frac{d}{d - \dim(A_C)} \, \epsilon^2$ on the worst dimension, which is stricter than the vulnerability condition $\sigma_i^2(C) > \epsilon^2$: every fragile coalition is vulnerable, but a vulnerable coalition need not be fragile.
+
 For the American party coalitions with $\dim(A) \approx 2$ and $d = 6$, the fragility coefficient $(d - \dim(A))/d = 4/6 \approx 0.67$, meaning that the fragility index reaches 1 (the fracture threshold) when the within-coalition variance on the worst disagreement dimension exceeds $1.5 \cdot \epsilon^2$. Both coalitions are operating near this threshold, explaining the persistent anxiety within both parties about coalition stability.
 
 ![Figure 12.1](figures/ch12_fig1.svg)

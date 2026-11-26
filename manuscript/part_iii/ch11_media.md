@@ -95,6 +95,8 @@ The geometric framework makes this precise. Let $d_{\text{true}}(v, p)$ be the t
 
 $$\delta = \frac{d_{\text{framed}} - d_{\text{true}}}{d_{\text{true}}}$$
 
+For Sarah and Mike of the running example, $\delta = (5.5 - 2.3)/2.3 \approx 1.39$. The "distortion factor" of 2.4 quoted there is a different quantity, the ratio $d_{\text{framed}}/d_{\text{true}} = \delta + 1$.
+
 The 8.9$\sigma$ figure is a significance level, not a value of $\delta$; the displacement behind it was 15-25% of the scale range on a single exposure. For cumulative media exposure, $\delta$ compounds. The political media is not an information channel with noise. It is a heuristic field with structure, and the structure is corrupt.
 
 ## District 7: Two Maps of the Same District
